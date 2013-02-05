@@ -1,0 +1,39 @@
+.ts-menu a {
+	cursor: pointer!important;
+}
+
+.ts-menu .sf-menu ul {
+	background: #fff url(../../img/bg-dots.png);
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+h5 {
+	font-size: 12px;
+}
+
+h6 {
+	font-size: 11px;
+}
+
+.slides-prev {
+	background: #202020 url(../../img/bg-arr-left-white.png) no-repeat center center;
+}
+
+.slides-next {
+	background: #202020 url(../../img/bg-arr-right-white.png) no-repeat center center;
+}

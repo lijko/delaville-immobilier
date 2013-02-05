@@ -1,0 +1,57 @@
+@import url("../../style.css");
+
+/* Print Style Sheet */
+
+@media print {
+
+	body {
+		margin: 0px;
+		background: #fff;
+		color: #000;
+		font-size: 14px;
+	}
+	
+	#top-wrap,
+	#header,
+	#sidebar,
+	#footer,
+	#subfooter,
+	.details-actions,
+	.widget_ts_location,
+	.widget_ts_gallery,
+	.widget_ts_contact,
+	.slides-prev,
+	.slides-next,
+	.ts-paging {
+		display: none!important;
+	}
+	
+	#content {
+		float: none;
+		width: 100%;
+		margin: 0px; 
+	}
+	
+	#content .wp-post-image,
+	.slides-small .slides_container,
+	.slides-small .slides_container .slide,
+	#content .attachment-dcr-medium {
+		width: 920px;
+		height: 420px;
+	}
+	
+	.section-title {
+		border: none;
+	}
+	
+	.section-title h1 {
+		font-size: 24px;
+	}
+	
+	.details-overview,
+	.details-actions a,
+	.details-location a {
+		font-size: 14px;
+	}
+
+}

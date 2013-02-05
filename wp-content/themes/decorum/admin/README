@@ -1,0 +1,26 @@
+ThemeShift Options
+==================
+
+Customizable WordPress Theme Options Admin Interface
+
+Original WordPress Plugin Option-Tree (http://wp.envato.com) by Derek Herman
+
+Authors: Derek Herman (http://valendesigns.com), Ralf Albert (me@neun12.de), Frank Bueltge (http://bueltge.de)
+
+Projektbeschreibung
+
+	Umbau des WordPress-Plugins Option-Tree auf kundenspezifische Anforderungen:
+	
+	- Code auf neue Codebasis (PHP 5) umgestellt
+	- Plugin neu strukturiert, intensive Verwendung von Klassen (teils OOP) anstatt File-Include
+	- Umstellung der Datenhaltung von externer Tabelle auf WP-Tabelle wp_options
+	- Umstellung von Plugin- auf Include-Version. Der Code wird nicht mehr als Plugin installiert,
+	  sondern ueber die functions.php des Themes inkludiert
+	- Import und Export ueberarbeitet. Die Daten werden generell als serialisierte Daten in Text-Dateien
+	  gespeichert (nur Backend-Daten)
+	- Ueberarbeitung der Menuestruktur. Menue wird nun nach dem Theme-Namen benannt
+	- Dev-Mode: Die Settings-Seite kann via Konfiguration ausgeblendet werden
+	- Default-Daten werden in einer Datei abgelegt (nicht mehr hard codiert), koennen so exportiert und kopiert werden
+	- Default-Daten ueberschreiben leere Einträge bzw. werden bei einem Reset des Formulars wieder hergestellt (Werkseinstellungen)
+	- Import/Export fuer Enduser als serialisierte Zeichenkette (base64 kodiert)
+	- Speicherung der Default-Werte aus dem Backend heraus. Keine manuelle Bearbeitung der Konfigurations-Datei noetig
