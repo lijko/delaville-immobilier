@@ -75,13 +75,13 @@
     		
     		</select>
     		
-    		<select name="baths" id="search-baths" class="text<?php echo $select_wide; ?>">
+    		<select name="rooms" id="search-rooms" class="text<?php echo $select_wide; ?>">
     		
-    			<option value=""><?php _e('Baths', TS_DOMAIN); ?>&hellip;</option>
+    			<option value=""><?php _e('rooms', TS_DOMAIN); ?>&hellip;</option>
     			<?php
-    				$ts_baths = apply_filters('ts_baths_options', array('1','2','3','4','5','6','7','8','9','10'));
-					foreach($ts_baths as $ts_bath) {
-						echo '<option'.selected($ts_bath, $search_get['baths'], false).'>'.$ts_bath.'</option>';
+    				$ts_rooms = apply_filters('ts_rooms_options', array('1','2','3','4','5','6','7','8','9','10'));
+					foreach($ts_rooms as $ts_bath) {
+						echo '<option'.selected($ts_bath, $search_get['rooms'], false).'>'.$ts_bath.'</option>';
 					}
 				?>
     		

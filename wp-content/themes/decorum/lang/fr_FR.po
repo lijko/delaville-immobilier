@@ -1,21 +1,21 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: deCasa v0.9\n"
+"Project-Id-Version: maMaison v0.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-02-05 22:12+0100\n"
+"PO-Revision-Date: 2013-02-07 16:54+0100\n"
 "Last-Translator: bertrandkempf@gmail.com <bertrandkempf@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Textdomain-Support: yes\n"
-"Language: es_ES\n"
 "X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
 
 # @ decorum
@@ -26,7 +26,7 @@ msgstr "Archive"
 # @ decorum
 #: comments.php:9
 msgid "Enter your password to view comments."
-msgstr "Escriba su contraseña para ver los comentarios."
+msgstr "Entrez votre mot de passe pour voir les commentaires"
 
 # @ decorum
 #: comments.php:76
@@ -65,17 +65,17 @@ msgstr "Enviar comentario"
 #: inc/functions.widgets.php:1645 inc/functions.widgets.php:1790
 #: inc/functions.widgets.php:1891
 msgid "Title"
-msgstr "Título"
+msgstr "Titre"
 
 # @ decorum
 #: inc/functions.widgets.php:1464
 msgid "Recent News"
-msgstr "Noticias"
+msgstr "News récentes"
 
 # @ decorum
 #: inc/functions.widgets.php:1607 inc/property-search.php:23
 msgid "Search"
-msgstr "Buscar"
+msgstr "Rechercher"
 
 # @ decorum
 #: inc/functions.helper.php:422
@@ -85,7 +85,7 @@ msgstr "Su comentario será revisado antes de publicarse."
 # @ decorum
 #: inc/functions.helper.php:419
 msgid "Reply"
-msgstr "Responder"
+msgstr "Répondre"
 
 # @ default
 #: inc/functions.helper.php:419
@@ -107,32 +107,32 @@ msgstr "Accueil"
 # @ decorum
 #: comments.php:88 inc/contact-form.php:143 inc/contact-tellafriend.php:157
 msgid "Your name"
-msgstr "Su nombre"
+msgstr "Votre nom"
 
 # @ decorum
 #: inc/functions.helper.php:419
 msgid "Login to reply"
-msgstr "Iniciar sesión"
+msgstr "Ouvrir une session"
 
 # @ decorum
 #: comments.php:93 inc/contact-form.php:149
 msgid "Your email"
-msgstr "Su email"
+msgstr "Votre email"
 
 # @ decorum
 #: comments.php:98
 msgid "Your website"
-msgstr "Su sitio web"
+msgstr "Votre site web"
 
 # @ default
 #: admin/admin_pages/options.php:40 admin/admin_pages/options.php:115
 msgid "Save Changes"
-msgstr "Guardar"
+msgstr "Sauvegarder"
 
 # @ decorum
 #: admin/ts-functions.php:172
 msgid "General"
-msgstr "General"
+msgstr "Général"
 
 # @ decorum
 #: admin/ts-functions.php:174
@@ -166,7 +166,7 @@ msgid ""
 "added to the footer of the theme."
 msgstr ""
 "Por favor, escriba su código tracking (como Google Analytics). Este código "
-"será incluido en el footer del tema."
+"será incluido en le footer del tema."
 
 # @ decorum
 #: admin/admin_pages/news.php:54
@@ -196,18 +196,18 @@ msgstr "Continuar leyendo"
 # @ default
 #: inc/functions.widgets.php:1263 inc/functions.widgets.php:1476
 msgid "Title:"
-msgstr ""
+msgstr "Titre:"
 
 # @ default
 #: inc/functions.widgets.php:425 inc/functions.widgets.php:623
 #: inc/functions.widgets.php:1488
 msgid "Number of posts to show:"
-msgstr ""
+msgstr "Nombres d'articles à montrer:"
 
 # @ default
 #: inc/functions.widgets.php:1804
 msgid "(at most 15)"
-msgstr ""
+msgstr "(maximum 15)"
 
 # @ decorum
 #: inc/functions.widgets.php:1507
@@ -249,7 +249,7 @@ msgstr "Twitter"
 # @ default
 #: inc/functions.widgets.php:1796
 msgid "User"
-msgstr ""
+msgstr "Utilisateur"
 
 # @ decorum
 #: inc/functions.widgets.php:1802
@@ -337,7 +337,7 @@ msgstr "Feature"
 # @ default
 #: inc/functions.widgets.php:1255
 msgid "Icon:"
-msgstr ""
+msgstr "Icone:"
 
 # @ decorum
 #: inc/functions.widgets.php:1267
@@ -383,7 +383,7 @@ msgstr "en"
 # @ default
 #: inc/functions.widgets.php:1479
 msgid "Category:"
-msgstr ""
+msgstr "Catégorie"
 
 # @ decorum
 #: inc/functions.widgets.php:1481 inc/property-search.php:34
@@ -441,7 +441,7 @@ msgid ""
 "This is the sidebar widget area. Please go to <code>WP-Admin > Appearance > "
 "Widgets</code> to drag and drop your preferred widgets in this area."
 msgstr ""
-"Este es el área widget sidebar. Por favor vaya a <code>Aparariencia > "
+"Este es le área widget sidebar. Por favor vaya a <code>Aparariencia > "
 "Widgets</code> para activar sus widgets preferidos en este ámbito."
 
 # @ decorum
@@ -586,7 +586,7 @@ msgstr "Registrarse"
 #: admin/admin_pages/docs.php:50 admin/admin_pages/docs.php:66
 #: admin/admin_pages/docs.php:76
 msgid "or"
-msgstr "o"
+msgstr "ou"
 
 # @ decorum
 #: admin/admin_pages/docs.php:52
@@ -601,7 +601,7 @@ msgid ""
 "useful shortlinks in the top bar of the theme options page."
 msgstr ""
 "Una vez que su cuenta se actualiza usted tiene acceso a documentación "
-"extensa, tutoriales, screencasts y el foro de soporte. Usted puede encontrar "
+"extensa, totorales, screencasts y le foro de soporte. Usted puede encontrar "
 "enlaces útiles en la barra superior de las páginas de opciones."
 
 # @ decorum
@@ -855,12 +855,12 @@ msgstr "Haga clic en cuadro de texto para abrir selector de color"
 # @ default
 #: admin/classes/subclasses/class-custom_post_type.php:36
 msgid "Options"
-msgstr ""
+msgstr "Options"
 
 # @ default
 #: admin/classes/subclasses/class-custom_post_type.php:157
 msgid "Somebody"
-msgstr ""
+msgstr "Quelqu'un"
 
 # @ default
 #: admin/classes/subclasses/class-custom_post_type.php:160
@@ -2716,53 +2716,53 @@ msgid ""
 "Do not put currency symbols and thousands separators to make sure the "
 "advanced search for price works correctly."
 msgstr ""
-"Por favor, no ponga ningun símbolo de moneda or separador de mil para que la "
+"Por favor, no ponga ningún símbolo de moneda or separador de mil para que la "
 "búsqueda por precio funcione correctamente."
 
 # @ decorum
 #: inc/property-search.php:98
 msgid "Advanced Search"
-msgstr "Búsqueda avanzada"
+msgstr "Recherche avancée"
 
 # @ decorum
 #: inc/property-search.php:105
 msgid "Price (min)"
-msgstr "Precio (min)"
+msgstr "Prix (min)"
 
 # @ decorum
 #: inc/property-search.php:112
 msgid "Price (max)"
-msgstr "Precio (max)"
+msgstr "Prix (max)"
 
 # @ decorum
 #: inc/property-search.php:119
 msgid "Order by"
-msgstr "Ordenar por"
+msgstr "Trier par"
 
 # @ decorum
 #: inc/property-search.php:121
 msgid "Date"
-msgstr "Fecha"
+msgstr "Date"
 
 # @ decorum
 #: inc/property-search.php:128
 msgid "Order"
-msgstr "Ordenación"
+msgstr "Ordre"
 
 # @ decorum
 #: inc/property-search.php:130
 msgid "descending"
-msgstr "descendente"
+msgstr "descendant"
 
 # @ decorum
 #: inc/property-search.php:131
 msgid "ascending"
-msgstr "ascendente"
+msgstr "ascendant"
 
 # @ decorum
 #: inc/functions.meta-box.php:26 inc/functions.meta-box.php:64
 msgid "Property Price"
-msgstr "Precio del inmueble"
+msgstr "Prix"
 
 # @ decorum
 #: inc/functions.meta-box.php:83
@@ -2778,4 +2778,4 @@ msgstr ""
 # @ decorum
 #: inc/property-search.php:137
 msgid "Results"
-msgstr "Resultados"
+msgstr "Résultats"

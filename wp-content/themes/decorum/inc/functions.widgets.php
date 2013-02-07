@@ -332,8 +332,8 @@ class TS_Property_Category extends WP_Widget {
 					<?php if(get_post_meta(get_the_ID(), '_beds', true) && !empty($details)) : ?>
 				    <span class="details-beds"><?php echo get_post_meta(get_the_ID(), '_beds', true); ?> <?php if($width!='box-4') _e('Beds', TS_DOMAIN); ?></span>
 				    <?php endif; ?>
-				    <?php if(get_post_meta(get_the_ID(), '_baths', true) && !empty($details)) : ?>
-				    <span class="details-baths"><?php echo get_post_meta(get_the_ID(), '_baths', true); ?> <?php if($width!='box-4') _e('Baths', TS_DOMAIN); ?></span>
+				    <?php if(get_post_meta(get_the_ID(), '_rooms', true) && !empty($details)) : ?>
+				    <span class="details-rooms"><?php echo get_post_meta(get_the_ID(), '_rooms', true); ?> <?php if($width!='box-4') _e('rooms', TS_DOMAIN); ?></span>
 				    <?php endif; ?>
 				    
 				    <?php if(get_post_meta(get_the_ID(), '_price_sold', true)) : ?>

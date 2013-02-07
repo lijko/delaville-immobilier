@@ -808,9 +808,9 @@ a#totop:active {
 	background: url(img/bg-slider-details-beds.png) no-repeat center top;
 }
 
-.slider-details .details-baths {
+.slider-details .details-rooms {
 	margin: 0px;
-	background: url(img/bg-slider-details-baths.png) no-repeat center top;
+	background: url(img/bg-slider-details-rooms.png) no-repeat center top;
 }
 
 .slider-details .details-price {
@@ -1053,26 +1053,26 @@ select#search-type.wide {
 }
 
 select#search-beds,
-select#search-baths {
+select#search-rooms {
 	width: 130px;
 }
 
 #content select#search-beds,
-#content select#search-baths {
+#content select#search-rooms {
 	width: 80px;
 }
 
 #content select#search-beds.wide,
-#content select#search-baths.wide {
+#content select#search-rooms.wide {
 	width: 125px;
 }
 
 select#search-beds.wide,
-select#search-baths.wide {
+select#search-rooms.wide {
 	width: 205px;
 }
 
-select#search-baths {
+select#search-rooms {
 	margin-right: 0px;
 }
 
@@ -1109,7 +1109,7 @@ select#search-baths {
 	}
 	
 	#content select#search-beds,
-	#content select#search-baths {
+	#content select#search-rooms {
 		width: 85px;
 	}
 }
@@ -1143,7 +1143,7 @@ select#search-baths {
 	}
 	
 	select#search-beds,
-	select#search-baths {
+	select#search-rooms {
 	    width: 100px;
 	}
 	
@@ -1163,12 +1163,12 @@ select#search-baths {
 	}
 	
 	#content select#search-beds.wide,
-	#content select#search-baths.wide {
+	#content select#search-rooms.wide {
 	    width: 120px!important;
 	}
 	
 	#content .search-box-es-ES select#search-beds,
-	#content .search-box-es-ES select#search-baths {
+	#content .search-box-es-ES select#search-rooms {
 	    width: 70px;
 	}
 }
@@ -1192,7 +1192,7 @@ select#search-baths {
 	}
 	
 	#content .search-box-de-DE select#search-beds,
-	#content .search-box-de-DE select#search-baths {
+	#content .search-box-de-DE select#search-rooms {
 	    width: 92px;
 	}
 	
@@ -1207,12 +1207,12 @@ select#search-baths {
 	}
 	
 	#content select#search-beds.wide,
-	#content select#search-baths.wide {
+	#content select#search-rooms.wide {
 	    width: 110px!important;
 	}
 	
 	#content .search-box-es-ES select#search-beds,
-	#content .search-box-es-ES select#search-baths {
+	#content .search-box-es-ES select#search-rooms {
 	    width: 92px;
 	}
 	
@@ -1386,9 +1386,9 @@ select#search-baths {
 	background: url(img/bg-details-beds.png) no-repeat left center;
 }
 
-.details-baths {
+.details-rooms {
 	padding: 0 0 0 13px;
-	background: url(img/bg-details-baths.png) no-repeat left center;
+	background: url(img/bg-details-rooms.png) no-repeat left center;
 }
 
 .details-price {

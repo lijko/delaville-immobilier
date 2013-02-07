@@ -139,17 +139,17 @@ jQuery(document).ready(function($){
 				    		<?php if(get_post_meta($post->ID, '_size', true)) : ?>
 			    			<span class="details-size"><?php echo get_post_meta($post->ID, '_size', true).' '.ts_get_option('ts_measurement_unit'); ?></span>
 			    			<?php else : ?>
-			    			<span class="details-baths"><?php _e('n/d', TS_DOMAIN); ?></span>
+			    			<span class="details-rooms"><?php _e('n/d', TS_DOMAIN); ?></span>
 			    			<?php endif; ?>
 			    			<?php if(get_post_meta($post->ID, '_beds', true)) : ?>
 			    			<span class="details-beds"><?php echo get_post_meta($post->ID, '_beds', true); ?> <?php _e('Beds', TS_DOMAIN); ?></span>
 			    			<?php else : ?>
 			    			<span class="details-beds"><?php _e('n/d', TS_DOMAIN); ?></span>
 			    			<?php endif; ?>
-			    			<?php if(get_post_meta($post->ID, '_baths', true)) : ?>
-			    			<span class="details-baths"><?php echo get_post_meta($post->ID, '_baths', true); ?> <?php _e('Baths', TS_DOMAIN); ?></span>
+			    			<?php if(get_post_meta($post->ID, '_rooms', true)) : ?>
+			    			<span class="details-rooms"><?php echo get_post_meta($post->ID, '_rooms', true); ?> <?php _e('rooms', TS_DOMAIN); ?></span>
 			    			<?php else : ?>
-			    			<span class="details-baths"><?php _e('n/d', TS_DOMAIN); ?></span>
+			    			<span class="details-rooms"><?php _e('n/d', TS_DOMAIN); ?></span>
 			    			<?php endif; ?>
 				    	</div>
 				    					

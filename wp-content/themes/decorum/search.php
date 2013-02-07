@@ -97,11 +97,11 @@
 					'type' => 'numeric'
 				);
 			
-			// check baths custom fields	
-			if($search_get['baths'])
-				$meta_query_baths = array(
-					'key' => '_baths',
-					'value' => $search_get['baths'],
+			// check rooms custom fields	
+			if($search_get['rooms'])
+				$meta_query_rooms = array(
+					'key' => '_rooms',
+					'value' => $search_get['rooms'],
 					'compare' => '>=',
 					'type' => 'numeric'
 				);
@@ -129,8 +129,8 @@
 			
 			if(!empty($meta_query_beds))
 				array_push($meta_query, $meta_query_beds);
-			if(!empty($meta_query_baths))
-				array_push($meta_query, $meta_query_baths);
+			if(!empty($meta_query_rooms))
+				array_push($meta_query, $meta_query_rooms);
 			if(!empty($meta_query_price_min))
 				array_push($meta_query, $meta_query_price_min);
 			if(!empty($meta_query_price_max))

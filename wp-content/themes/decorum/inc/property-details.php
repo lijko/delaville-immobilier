@@ -3,7 +3,7 @@
 	$ts_property_elements_single = ts_get_option('ts_property_elements_single');
 	$property_size = get_post_meta($post->ID, '_size', true);
 	$property_beds = get_post_meta($post->ID, '_beds', true);
-	$property_baths = get_post_meta($post->ID, '_baths', true);
+	$property_rooms = get_post_meta($post->ID, '_rooms', true);
 	
 	$ts_measurement = apply_filters('ts_measurement_unit', ts_get_option('ts_measurement_unit'));
 	
@@ -22,7 +22,7 @@ if(
 	!empty($ts_property_elements_single[3]) ||
 	!empty($property_size) ||
 	!empty($property_beds) ||
-	!empty($property_baths)
+	!empty($property_rooms)
 ) :
 
 ?>
@@ -43,8 +43,8 @@ if(
     <?php if(get_post_meta($post->ID, '_beds', true)) : ?>
     <span class="details-beds"><?php echo $property_beds; ?> <?php _e('Beds', TS_DOMAIN); ?></span>
     <?php endif; ?>
-    <?php if(get_post_meta($post->ID, '_baths', true)) : ?>
-    <span class="details-baths"><?php echo $property_baths; ?> <?php _e('Baths', TS_DOMAIN); ?></span>
+    <?php if(get_post_meta($post->ID, '_rooms', true)) : ?>
+    <span class="details-rooms"><?php echo $property_rooms; ?> <?php _e('rooms', TS_DOMAIN); ?></span>
     <?php endif; ?>
     <?php if($ts_property_elements_single[3] || $ts_property_elements_single[4]) : ?>
     <div class="details-location">

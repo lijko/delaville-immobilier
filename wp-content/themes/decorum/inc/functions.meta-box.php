@@ -152,12 +152,12 @@ function ts_post_options() {
 	
 	$post_options->register_post_option(
 		array(
-			'id' => '_baths',
-			'title' => apply_filters('ts_baths_text', __('Bathrooms', TS_DOMAIN)),
+			'id' => '_rooms',
+			'title' => apply_filters('ts_rooms_text', __('Bathrooms', TS_DOMAIN)),
 			'section' => 'property_details',
 			'callback' => $post_fields->select(
 				array(
-					'select_data' => apply_filters('ts_baths_options', array('', '1','2','3','4','5','6','7','8','9','10'))
+					'select_data' => apply_filters('ts_rooms_options', array('', '1','2','3','4','5','6','7','8','9','10'))
 				)
 			)
 		)

@@ -222,8 +222,8 @@ function property_custom_columns($column) {
   	  	  		echo '<br />'.apply_filters('ts_size_text', __('Size', TS_DOMAIN)).': '.$custom['_size'][0].' '.apply_filters('ts_measurement_unit', ts_get_option('ts_measurement_unit'));
   	  	  	if(!empty($custom['_beds'][0]))
   	  	  		echo '<br />'.apply_filters('ts_beds_text', __('Bedrooms', TS_DOMAIN)).': '.$custom['_beds'][0];
-  	  	  	if(!empty($custom['_baths'][0]))
-  	  	  		echo '<br />'.apply_filters('ts_baths_text', __('Bathrooms', TS_DOMAIN)).': '.$custom['_baths'][0];
+  	  	  	if(!empty($custom['_rooms'][0]))
+  	  	  		echo '<br />'.apply_filters('ts_rooms_text', __('Bathrooms', TS_DOMAIN)).': '.$custom['_rooms'][0];
   	  	  	break;
   	  	  	
   	  	case 'property_info':  	  		

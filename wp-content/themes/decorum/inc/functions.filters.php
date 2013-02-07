@@ -124,7 +124,7 @@ function my_menu_home_url() {
  * => Location terms
  * => Property type terms
  * => Beds options
- * => Baths options
+ * => Rooms options
  * => Number options (posts per page)
  *
  */
@@ -213,13 +213,13 @@ function my_beds_options() {
  * Property search bath options
  */
  
-// add_filter('ts_baths_options', 'my_baths_options');
+// add_filter('ts_rooms_options', 'my_rooms_options');
 
-function my_baths_options() {
+function my_rooms_options() {
 
-	$baths_options = array('1','2','3','4','5');
+	$rooms_options = array('1','2','3','4','5');
 	
-	return $baths_options;
+	return $rooms_options;
 
 }
 
@@ -414,13 +414,13 @@ function my_beds_text() {
 	
 }
 
-// add_filter('ts_baths_text', 'my_baths_text');
+// add_filter('ts_rooms_text', 'my_rooms_text');
 
-function my_baths_text() {
+function my_rooms_text() {
 
-	$baths_text = 'My Bathrooms';
+	$rooms_text = 'My rooms';
 
-	return $baths_text;
+	return $rooms_text;
 	
 }
 

@@ -84,8 +84,8 @@ Template Name: Properties (for rent)
     					<?php if(get_post_meta($post->ID, '_beds', true)) : ?>
     				    <span class="details-beds"><?php echo get_post_meta($post->ID, '_beds', true); ?></span>
     				    <?php endif; ?>
-    				    <?php if(get_post_meta($post->ID, '_baths', true)) : ?>
-    				    <span class="details-baths"><?php echo get_post_meta($post->ID, '_baths', true); ?></span>
+    				    <?php if(get_post_meta($post->ID, '_rooms', true)) : ?>
+    				    <span class="details-rooms"><?php echo get_post_meta($post->ID, '_rooms', true); ?></span>
     				    <?php endif; ?>
     				    
     				    <?php if(get_post_meta($post->ID, '_price_sold', true)) : ?>
