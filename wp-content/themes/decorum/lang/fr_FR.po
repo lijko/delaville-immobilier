@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: maMaison v0.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-02-07 16:54+0100\n"
+"PO-Revision-Date: 2013-02-07 17:00+0100\n"
 "Last-Translator: bertrandkempf@gmail.com <bertrandkempf@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr "Annuler"
 # @ decorum
 #: comments.php:83
 msgid "Log out of this account"
-msgstr "Cerrar sesión de este usuario"
+msgstr "wCerrar sesión de este usuario"
 
 # @ decorum
 #: comments.php:109
