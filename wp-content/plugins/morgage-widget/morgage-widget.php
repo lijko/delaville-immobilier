@@ -45,13 +45,10 @@ class MorgageWidget extends WP_Widget
 <?php the_post(); ?>
 <?php 
 		$principal = get_post_custom_values('_price');
-?> 
+?>
 
-		<script type="text/javascript" src="<?php echo plugins_url('js/jquery-1.3.2.min.js', __FILE__ ); ?>"></script>
-		<script type="text/javascript" src="<?php echo plugins_url('js/jquery-ui-1.7.2.custom.min.js', __FILE__ ); ?>"></script>
-		<script type="text/javascript" src="<?php echo plugins_url('js/jquery.utils.lite.js', __FILE__ ); ?>"></script>
-		<script type="text/javascript" src="<?php echo plugins_url('js/i18n/mcalc.fr.js', __FILE__ ); ?>"></script>
-		<script type="text/javascript" src="<?php echo plugins_url('js/jquery.mcalc.js', __FILE__ ); ?>"></script>
+
+
         <div id="mcalc"></div>
         
 			<script type="text/javascript">

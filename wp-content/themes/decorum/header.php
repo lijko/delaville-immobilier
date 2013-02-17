@@ -12,6 +12,13 @@
 
 <?php wp_head(); ?>
 
+<script type="text/javascript" src="<?php echo plugins_url(); ?>/morgage-widget/js/jquery-1.3.2.min.js"></script>
+		<script type="text/javascript" src="<?php echo plugins_url(); ?>/morgage-widget/js/jquery-1.3.2.min.js"></script>
+		<script type="text/javascript" src="<?php echo plugins_url(); ?>/morgage-widget/js/jquery-ui-1.7.2.custom.min.js"></script>
+		<script type="text/javascript" src="<?php echo plugins_url(); ?>/morgage-widget/js/jquery.utils.lite.js"></script>
+		<script type="text/javascript" src="<?php echo plugins_url(); ?>/morgage-widget/js/i18n/mcalc.fr.js"></script>
+		<script type="text/javascript" src="<?php echo plugins_url(); ?>/morgage-widget/js/jquery.mcalc.js"></script>
+
 </head>
 
 <body <?php body_class(); ?>>

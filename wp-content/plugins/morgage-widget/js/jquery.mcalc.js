@@ -16,7 +16,7 @@ $.extend($.strConversion, {
     C: function(input, args){ 
         var i = parseFloat(input, 10).toFixed(2); 
         i = (i == "NaN") ? "0.00" : i; 
-        return i.replace(/(\d+)(\d{3})\.?(\d+)?/, '$1,$2.$3');
+        return i.replace(/(\d+)(\d{3})\.?(\d+)?/, '$1.$2,$3');
     }
 });
 
@@ -234,7 +234,7 @@ $.widget('ui.mcalc', {
 $.ui.mcalc.defaults = {
     debug:       false,
     formula:     'fre',
-    form:        ['principal', 'cashdown', 'interest', 'term', 'amortschedule', 'insurance', 'total'],
+    form:        ['principal', 'cashdown', 'interest', 'term', 'insurance', 'total'],
     principal:   300000,        // $
     cashdown:    '0',       // %
     cashdownType: 'raw',    // raw || percent
@@ -327,7 +327,7 @@ $.ui.mcalc.component({
         return parseFloat($elf.find('input').val(), 10);
     },
     init: function(ui) {
-        $(this).find('input').val(ui.options.principal).keynav(ui.options.principalKeynav);
+        $(this).find('input').width(70).val(ui.options.principal).keynav(ui.options.principalKeynav);
     },
     events: [
         {type: 'ready', callback: $.ui.mcalc.inputReadyRefreshObserver}
@@ -358,7 +358,7 @@ $.ui.mcalc.component({
     },
     init: function(ui) {
         $(this).find('input')
-               .width(35)
+               .width(70)
                .val(ui.options.cashdown)
         if (ui.options.cashdownType == 'percent') {
             $(this).find('input').keynav($.ui.mcalc.defaults.fixedKeynav);
