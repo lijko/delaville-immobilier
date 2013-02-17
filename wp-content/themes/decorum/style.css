@@ -2548,3 +2548,8 @@ html[xmlns] .clearfix {
 .gform_previous_button:hover {
 	background-color: #444!important;
 }
+
+/** delaville ..*/
+#search-pricemin {
+	display: none;
+}

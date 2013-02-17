@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: maMaison v0.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-02-17 15:07+0100\n"
+"PO-Revision-Date: 2013-02-17 16:37+0100\n"
 "Last-Translator: bertrandkempf@gmail.com <bertrandkempf@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2154,7 +2154,7 @@ msgstr "Statut"
 # @ decorum
 #: inc/functions.post-type.php:342
 msgid "Show all"
-msgstr "Tous les voir"
+msgstr "Afficher tous les"
 
 # @ decorum
 #: inc/functions.properties.php:104 inc/functions.properties.php:113
@@ -2285,14 +2285,14 @@ msgstr "Property Teaser"
 # @ decorum
 #: inc/functions.widgets.php:284 inc/functions.widgets.php:511
 msgid "See all"
-msgstr "Tous les voir"
+msgstr "Afficher tous les"
 
 # @ decorum
 #: inc/functions.widgets.php:337 inc/property-details.php:44
 #: inc/property-search.php:68 inc/slider-full.php:145
 #: page-tpl-favorites.php:78
 msgid "Beds"
-msgstr "Chambres"
+msgstr "Chamb."
 
 # @ decorum
 #: inc/functions.widgets.php:340 inc/property-details.php:47
@@ -2678,7 +2678,7 @@ msgstr "Année de construction"
 # @ decorum
 #: inc/property-search.php:21
 msgid "Enter keyword or ID"
-msgstr "Enter keyword or ID"
+msgstr "Mot clé ou ID bien"
 
 # @ decorum
 #: admin/ts-functions.php:229
