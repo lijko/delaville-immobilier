@@ -39,8 +39,31 @@ class MorgageWidget extends WP_Widget
     if (!empty($title))
       echo $before_title . $title . $after_title;;
  
-    // WIDGET CODE GOES HERE
-    echo "<h1>This is my new widget!</h1>";
+    // WIDGET CODE STARTS HERE
+?>
+
+<?php the_post(); ?>
+<?php 
+		$principal = get_post_custom_values('_price');
+?> 
+
+		<script type="text/javascript" src="<?php echo plugins_url('js/jquery-1.3.2.min.js', __FILE__ ); ?>"></script>
+		<script type="text/javascript" src="<?php echo plugins_url('js/jquery-ui-1.7.2.custom.min.js', __FILE__ ); ?>"></script>
+		<script type="text/javascript" src="<?php echo plugins_url('js/jquery.utils.lite.js', __FILE__ ); ?>"></script>
+		<script type="text/javascript" src="<?php echo plugins_url('js/i18n/mcalc.fr.js', __FILE__ ); ?>"></script>
+		<script type="text/javascript" src="<?php echo plugins_url('js/jquery.mcalc.js', __FILE__ ); ?>"></script>
+        <div id="mcalc"></div>
+        
+			<script type="text/javascript">
+			$(function(){
+			var opt = {'principal': '<?php echo($principal[0]); ?>'};
+			
+			$('#mcalc').mcalc($.extend({
+			}, opt));
+			});
+			</script >
+<?php    
+    // WIDGET CODE ENDS HERE
  
     echo $after_widget;
   }
