@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: maMaison v0.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-02-17 14:47+0100\n"
+"PO-Revision-Date: 2013-02-17 15:07+0100\n"
 "Last-Translator: bertrandkempf@gmail.com <bertrandkempf@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgstr ""
 # @ decorum
 #: comments.php:71
 msgid "Leave a Reply"
-msgstr "Laisser un commentaire"
+msgstr "Leave a Reply"
 
 # @ decorum
 #: comments.php:71
@@ -419,7 +419,7 @@ msgstr "Commentaire"
 # @ decorum
 #: inc/functions.widgets.php:125
 msgid "Posts"
-msgstr "Posts"
+msgstr "Articles"
 
 # @ decorum
 #: inc/functions.widgets.php:1269
@@ -495,7 +495,7 @@ msgstr "Do something!"
 # @ decorum
 #: inc/functions.widgets.php:1410 inc/functions.widgets.php:1421
 msgid "Recent Posts"
-msgstr "Posts récents"
+msgstr "Articles récents"
 
 # @ decorum
 #: inc/functions.widgets.php:427 inc/functions.widgets.php:625
@@ -793,7 +793,7 @@ msgstr "No pages available"
 #: admin/classes/subclasses/class-admin_views.php:142
 #: admin/classes/subclasses/class-admin_views.php:185
 msgid "No posts available"
-msgstr "No posts available"
+msgstr "Aucun article disponible"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_views.php:225
@@ -1186,12 +1186,12 @@ msgstr "WordPress Login Logo"
 # @ decorum
 #: single.php:49
 msgid "Previous post"
-msgstr "post précédent"
+msgstr "article précédent"
 
 # @ decorum
 #: single.php:50
 msgid "Next post"
-msgstr "post suivant"
+msgstr "article suivant"
 
 # @ decorum
 #: 404.php:11
@@ -1696,7 +1696,7 @@ msgstr "Caractéristique"
 #: inc/functions.filters.php:388 inc/functions.post-type.php:230
 #: inc/functions.properties.php:182 inc/property-search.php:44
 msgid "Location"
-msgstr "Emplacement"
+msgstr "Lieu"
 
 # @ decorum
 #: inc/contact-form.php:16 inc/contact-form.php:24 inc/contact-form.php:35
@@ -1801,7 +1801,7 @@ msgstr "Chambre(s) à coucher"
 
 # @ decorum
 #: inc/functions.meta-box.php:156 inc/functions.post-type.php:226
-msgid "Bathrooms"
+msgid "Rooms"
 msgstr "Pièces"
 
 # @ decorum
@@ -1823,7 +1823,7 @@ msgstr "Prix"
 # @ decorum
 #: inc/functions.meta-box.php:224 inc/functions.widgets.php:669
 msgid "Property Location"
-msgstr "Emplacement du bien"
+msgstr "Lieu du bien"
 
 # @ decorum
 #: inc/functions.meta-box.php:104
@@ -1894,13 +1894,13 @@ msgstr "Bien (à vendre)"
 #: inc/functions.post-type.php:24
 msgctxt "sale"
 msgid "Add New"
-msgstr "Ajouter un nouveau bien"
+msgstr "Ajouter un bien"
 
 # @ decorum
 #: inc/functions.post-type.php:25
 msgctxt "sale"
 msgid "Add New Property"
-msgstr "Ajouter un nouveau bien"
+msgstr "Ajouter un bien"
 
 # @ decorum
 #: inc/functions.post-type.php:26
@@ -1966,13 +1966,13 @@ msgstr "Bien (à louer)"
 #: inc/functions.post-type.php:60
 msgctxt "rent"
 msgid "Add New"
-msgstr "Ajouter un nouveau bien"
+msgstr "Ajouter un bien"
 
 # @ decorum
 #: inc/functions.post-type.php:61
 msgctxt "rent"
 msgid "Add New Property"
-msgstr "Ajouter un nouveau bien"
+msgstr "Ajouter un bien"
 
 # @ decorum
 #: inc/functions.post-type.php:62
@@ -2026,13 +2026,13 @@ msgstr "à louer"
 #: inc/functions.post-type.php:122
 msgctxt "taxonomy general name"
 msgid "Locations"
-msgstr "Emplacements"
+msgstr "Lieux"
 
 # @ decorum
 #: inc/functions.post-type.php:123
 msgctxt "taxonomy singular name"
 msgid "Location"
-msgstr "Emplacement"
+msgstr "Lieu"
 
 # @ decorum
 #: inc/functions.post-type.php:135
@@ -2616,7 +2616,7 @@ msgstr "Create some example properties"
 # @ decorum
 #: index.php:31
 msgid "Add New Property"
-msgstr "Ajouter un nouveau bien"
+msgstr "Ajouter un bien"
 
 # @ decorum
 #: index.php:33

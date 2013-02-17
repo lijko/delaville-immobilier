@@ -210,7 +210,7 @@ function my_beds_options() {
 }
 
 /**
- * Property search bath options
+ * Property search rooms options
  */
  
 // add_filter('ts_rooms_options', 'my_rooms_options');

@@ -223,7 +223,7 @@ function property_custom_columns($column) {
   	  	  	if(!empty($custom['_beds'][0]))
   	  	  		echo '<br />'.apply_filters('ts_beds_text', __('Bedrooms', TS_DOMAIN)).': '.$custom['_beds'][0];
   	  	  	if(!empty($custom['_rooms'][0]))
-  	  	  		echo '<br />'.apply_filters('ts_rooms_text', __('Bathrooms', TS_DOMAIN)).': '.$custom['_rooms'][0];
+  	  	  		echo '<br />'.apply_filters('ts_rooms_text', __('Rooms', TS_DOMAIN)).': '.$custom['_rooms'][0];
   	  	  	break;
   	  	  	
   	  	case 'property_info':  	  		

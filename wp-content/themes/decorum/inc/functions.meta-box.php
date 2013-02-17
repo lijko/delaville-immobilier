@@ -153,7 +153,7 @@ function ts_post_options() {
 	$post_options->register_post_option(
 		array(
 			'id' => '_rooms',
-			'title' => apply_filters('ts_rooms_text', __('Bathrooms', TS_DOMAIN)),
+			'title' => apply_filters('ts_rooms_text', __('Rooms', TS_DOMAIN)),
 			'section' => 'property_details',
 			'callback' => $post_fields->select(
 				array(
