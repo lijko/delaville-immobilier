@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: maMaison v0.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-02-07 17:00+0100\n"
+"PO-Revision-Date: 2013-02-17 14:47+0100\n"
 "Last-Translator: bertrandkempf@gmail.com <bertrandkempf@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -26,18 +26,19 @@ msgstr "Archive"
 # @ decorum
 #: comments.php:9
 msgid "Enter your password to view comments."
-msgstr "Entrez votre mot de passe pour voir les commentaires"
+msgstr "Entrez votre mot de passe pour voir les commentaires."
 
 # @ decorum
 #: comments.php:76
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr "Los usuarios deben <a href=\"%s\">iniciar sesión</a> para comentar."
+msgstr ""
+"Vous devez être <a href=\"%s\">connecté</a> pour poster un commentaire."
 
 # @ decorum
 #: comments.php:71
 msgid "Leave a Reply"
-msgstr "Escribir un comentario"
+msgstr "Laisser un commentaire"
 
 # @ decorum
 #: comments.php:71
@@ -47,12 +48,12 @@ msgstr "Annuler"
 # @ decorum
 #: comments.php:83
 msgid "Log out of this account"
-msgstr "wCerrar sesión de este usuario"
+msgstr "Se déconnecter"
 
 # @ decorum
 #: comments.php:109
 msgid "Submit comment"
-msgstr "Enviar comentario"
+msgstr "Laisser un commentaire"
 
 # @ decorum
 # @ default
@@ -80,7 +81,7 @@ msgstr "Rechercher"
 # @ decorum
 #: inc/functions.helper.php:422
 msgid "Your comment is awaiting moderation."
-msgstr "Su comentario será revisado antes de publicarse."
+msgstr "Votre commentaire est en attente de validation."
 
 # @ decorum
 #: inc/functions.helper.php:419
@@ -137,12 +138,12 @@ msgstr "Général"
 # @ decorum
 #: admin/ts-functions.php:174
 msgid "Please enter an URL or upload your custom logo."
-msgstr "Por favor, introduzca una URL o suba un logo."
+msgstr "Insérer une URL ou uploader un logo custom."
 
 # @ decorum
 #: admin/ts-functions.php:178
 msgid "Please enter your custom RSS URL (e.g. Feedburner)."
-msgstr "Por favor, escriba su propia URL RSS (como Feedburner)."
+msgstr "Insérer votre URL RSS custom."
 
 # @ decorum
 #: admin/ts-functions.php:179
@@ -152,12 +153,12 @@ msgstr "Custom CSS"
 # @ decorum
 #: admin/ts-functions.php:180
 msgid "Easily add some custom css to the head of your theme."
-msgstr "Aquí puede añadir su propio CSS rápidamente."
+msgstr "Ajouter facilement un CSS à votre thème."
 
 # @ decorum
 #: admin/ts-functions.php:181
 msgid "Tracking Code"
-msgstr "Código Tracking"
+msgstr "Tracking Code"
 
 # @ decorum
 #: admin/ts-functions.php:182
@@ -165,8 +166,8 @@ msgid ""
 "Insert your tracking code here (e.g. Google Analytics). This code will be "
 "added to the footer of the theme."
 msgstr ""
-"Por favor, escriba su código tracking (como Google Analytics). Este código "
-"será incluido en le footer del tema."
+"Insert your tracking code here (e.g. Google Analytics). This code will be "
+"added to the footer of the theme."
 
 # @ decorum
 #: admin/admin_pages/news.php:54
@@ -176,12 +177,12 @@ msgstr "Demo"
 # @ decorum
 #: admin/admin_pages/news.php:54
 msgid "Theme Info"
-msgstr "Más información"
+msgstr "Theme Info"
 
 # @ decorum
 #: admin/admin_pages/news.php:64
 msgid "Latest ThemeShift News"
-msgstr "Últimas noticias de ThemeShift"
+msgstr "Latest ThemeShift News"
 
 # @ decorum
 #: admin/admin_pages/news.php:19
@@ -191,7 +192,7 @@ msgstr "Blog"
 # @ decorum
 #: admin/admin_pages/news.php:85
 msgid "Continue Reading"
-msgstr "Continuar leyendo"
+msgstr "Lire la suite"
 
 # @ default
 #: inc/functions.widgets.php:1263 inc/functions.widgets.php:1476
@@ -212,12 +213,12 @@ msgstr "(maximum 15)"
 # @ decorum
 #: inc/functions.widgets.php:1507
 msgid "Newsletter form for"
-msgstr "Formulario boletín de"
+msgstr "Formulaire Newsletter pour"
 
 # @ decorum
 #: inc/functions.widgets.php:1508
 msgid "Newsletter"
-msgstr "Boletín"
+msgstr "Newsletter"
 
 # @ decorum
 #: inc/functions.widgets.php:1578
@@ -229,17 +230,17 @@ msgstr "ID Feedburner"
 #: inc/functions.widgets.php:1126 inc/functions.widgets.php:1572
 #: inc/functions.widgets.php:1902
 msgid "Text"
-msgstr "Texto"
+msgstr "Texte"
 
 # @ decorum
 #: inc/functions.widgets.php:1606
 msgid "Search form for"
-msgstr "Formulario busca de"
+msgstr "Formulaire de recherche pour"
 
 # @ decorum
 #: inc/functions.widgets.php:1669
 msgid "Display latest tweets in"
-msgstr "Ùltimos tweets en"
+msgstr "Display latest tweets in"
 
 # @ decorum
 #: inc/functions.widgets.php:1670
@@ -254,146 +255,146 @@ msgstr "Utilisateur"
 # @ decorum
 #: inc/functions.widgets.php:1802
 msgid "Number of tweets to show"
-msgstr "Número de tweets"
+msgstr "Number of tweets to show"
 
 # @ decorum
 #: inc/functions.widgets.php:1809
 msgid "Show link to Twitter"
-msgstr "Enlace a Twitter"
+msgstr "Show link to Twitter"
 
 # @ decorum
 #: inc/functions.widgets.php:1813 inc/functions.widgets.php:1913
 msgid "Link label"
-msgstr "Texto enlace"
+msgstr "Link label"
 
 # @ decorum
 #: admin/ts-functions.php:284 comments.php:26
 msgid "Comments"
-msgstr "Comentarios"
+msgstr "Commentaires"
 
 # @ decorum
 #: inc/functions.widgets.php:1835
 msgid "Display about section in"
-msgstr "Acerca de en"
+msgstr "Display about section in"
 
 # @ decorum
 #: inc/functions.widgets.php:1836
 msgid "About"
-msgstr "Acerca de"
+msgstr "About"
 
 # @ decorum
 #: inc/functions.widgets.php:1871
 msgid "About Us"
-msgstr "Acerca de nosotros"
+msgstr "Nous concernant"
 
 # @ decorum
 #: inc/functions.widgets.php:1848 inc/functions.widgets.php:1885
 msgid "Your text about you."
-msgstr "Escriba un texto acerca de su empresa."
+msgstr "Un texte vous concernant."
 
 # @ decorum
 #: inc/functions.widgets.php:1850 inc/functions.widgets.php:1875
 #: inc/functions.widgets.php:1887
 msgid "More"
-msgstr "Más"
+msgstr "Plus"
 
 # @ decorum
 #: inc/functions.widgets.php:1898
 msgid "Show admin's avatar"
-msgstr "Mostrar avatar del admin"
+msgstr "Show admin's avatar"
 
 # @ decorum
 #: inc/functions.widgets.php:1908
 msgid "Post/page ID for link"
-msgstr "ID entrada/página enlace"
+msgstr "Post/page ID for link"
 
 # @ decorum
 #: admin/admin_pages/docs.php:5 admin/admin_pages/docs.php:35
 #: admin/admin_pages/docs.php:46 admin/admin_pages/settings.php:20
 #: admin/classes/subclasses/class-admin_menu.php:40
 msgid "Help Center"
-msgstr "Centro de ayuda"
+msgstr "Aide"
 
 # @ decorum
 #: footer.php:18 sidebar-properties.php:16 sidebar.php:17
 msgid "Widget Area"
-msgstr "Àrea widgets"
+msgstr "Widget Area"
 
 # @ decorum
 #: footer.php:22 index.php:35 sidebar-properties.php:20 sidebar.php:21
 msgid "Edit Widgets"
-msgstr "Configuración widgets"
+msgstr "Edit Widgets"
 
 # @ decorum
 #: page-tpl-blog.php:75
 msgid "Read more"
-msgstr "Leer más"
+msgstr "Lire la suite"
 
 # @ decorum
 #: inc/functions.widgets.php:1159 inc/functions.widgets.php:1160
 msgid "Features Box"
-msgstr "Feature"
+msgstr "Features Box"
 
 # @ default
 #: inc/functions.widgets.php:1255
 msgid "Icon:"
-msgstr "Icone:"
+msgstr "Icon:"
 
 # @ decorum
 #: inc/functions.widgets.php:1267
 msgid "Image:"
-msgstr "Imagen:"
+msgstr "Image:"
 
 # @ decorum
 #: inc/functions.widgets.php:1268 inc/functions.widgets.php:1270
 msgid "Enter URL or media image ID"
-msgstr "URL o ID de imagen"
+msgstr "URL ou ID media de l'image"
 
 # @ decorum
 #: inc/functions.widgets.php:1277 inc/functions.widgets.php:1377
 msgid "Text:"
-msgstr "Texto:"
+msgstr "Texte:"
 
 # @ decorum
 #: inc/functions.widgets.php:1128 inc/functions.widgets.php:1278
 msgid "HTML allowed - will be wrapped by p-tags"
-msgstr "HTML permitido - será mostrado en tags p"
+msgstr "HTML autorisé - wrapped par p tags"
 
 # @ decorum
 #: inc/functions.widgets.php:1280 inc/functions.widgets.php:1382
 msgid "Link:"
-msgstr "Enlace:"
+msgstr "Lien:"
 
 # @ decorum
 #: inc/functions.widgets.php:1281 inc/functions.widgets.php:1384
 msgid "Enter URL or post/page ID"
-msgstr "URL o ID de post/page"
+msgstr "Enter URL or post/page ID"
 
 # @ decorum
 #: inc/functions.widgets.php:1388
 msgid "Link label:"
-msgstr "Texto enlace:"
+msgstr "Link label:"
 
 # @ decorum
 #: archive.php:70 inc/functions.widgets.php:556 inc/functions.widgets.php:1441
 #: page-tpl-blog.php:69 single.php:22
 msgid "in"
-msgstr "en"
+msgstr "dans"
 
 # @ default
 #: inc/functions.widgets.php:1479
 msgid "Category:"
-msgstr "Catégorie"
+msgstr "Catégorie:"
 
 # @ decorum
 #: inc/functions.widgets.php:1481 inc/property-search.php:34
 msgid "All"
-msgstr "Todo"
+msgstr "Tous"
 
 # @ decorum
 #: inc/functions.widgets.php:1683 inc/functions.widgets.php:1785
 msgid "Follow"
-msgstr "Follow"
+msgstr "Suivre"
 
 # @ decorum
 #: comments.php:47
@@ -408,17 +409,17 @@ msgstr "Trackbacks"
 # @ decorum
 #: inc/functions.helper.php:47
 msgid "Main Menu"
-msgstr "Menú principal"
+msgstr "Menu principal"
 
 # @ decorum
 #: comments.php:26
 msgid "Comment"
-msgstr "Comentario"
+msgstr "Commentaire"
 
 # @ decorum
 #: inc/functions.widgets.php:125
 msgid "Posts"
-msgstr "Entradas"
+msgstr "Posts"
 
 # @ decorum
 #: inc/functions.widgets.php:1269
@@ -428,7 +429,7 @@ msgstr "Lightbox:"
 # @ decorum
 #: inc/functions.widgets.php:1520 inc/functions.widgets.php:1561
 msgid "Enter email address"
-msgstr "Escriba su email"
+msgstr "Entrer une adresse email"
 
 # @ decorum
 #: inc/functions.helper.php:250 inc/functions.widgets.php:1535
@@ -441,44 +442,44 @@ msgid ""
 "This is the sidebar widget area. Please go to <code>WP-Admin > Appearance > "
 "Widgets</code> to drag and drop your preferred widgets in this area."
 msgstr ""
-"Este es le área widget sidebar. Por favor vaya a <code>Aparariencia > "
-"Widgets</code> para activar sus widgets preferidos en este ámbito."
+"This is the sidebar widget area. Please go to <code>WP-Admin > Appearance > "
+"Widgets</code> to drag and drop your preferred widgets in this area."
 
 # @ decorum
 #: comments.php:26
 msgid "Add yours"
-msgstr "Comentar"
+msgstr "Ajouter le votre"
 
 # @ decorum
 #: comments.php:83
 msgid "Log out"
-msgstr "Cerrar sesión"
+msgstr "Se déconnecter"
 
 # @ decorum
 #: inc/functions.post-type.php:234 inc/functions.widgets.php:115
 #: inc/functions.widgets.php:609
 msgid "Category"
-msgstr "Categoría"
+msgstr "Catégorie"
 
 # @ decorum
 #: inc/functions.widgets.php:1292
 msgid "only home page"
-msgstr "sólo página principal"
+msgstr "Seulement à l'accueil"
 
 # @ decorum
 #: inc/functions.widgets.php:1283
 msgid "Button label:"
-msgstr "Texto del botón:"
+msgstr "Button label:"
 
 # @ decorum
 #: inc/functions.widgets.php:1284
 msgid "Enter label to display a button"
-msgstr "Introduzca texto para mostrar un botón"
+msgstr "Enter label to display a button"
 
 # @ decorum
 #: inc/functions.widgets.php:1310
 msgid "Call-to-action bar for"
-msgstr "Barra Call-to-action para"
+msgstr "Call-to-action bar for"
 
 # @ decorum
 #: inc/functions.widgets.php:1311 inc/functions.widgets.php:1320
@@ -489,60 +490,60 @@ msgstr "Call2Action"
 # @ decorum
 #: inc/functions.widgets.php:1323 inc/functions.widgets.php:1366
 msgid "Do something!"
-msgstr "Haga algo!"
+msgstr "Do something!"
 
 # @ decorum
 #: inc/functions.widgets.php:1410 inc/functions.widgets.php:1421
 msgid "Recent Posts"
-msgstr "Articulos recientes"
+msgstr "Posts récents"
 
 # @ decorum
 #: inc/functions.widgets.php:427 inc/functions.widgets.php:625
 #: inc/functions.widgets.php:1490
 msgid "(at most 20)"
-msgstr "(máximo 20)"
+msgstr "(20 maximum)"
 
 # @ decorum
 #: inc/functions.widgets.php:629
 msgid "Show post thumbnail"
-msgstr "Mostrar imagen destacada"
+msgstr "Show post thumbnail"
 
 # @ decorum
 #: inc/functions.widgets.php:1409
 msgid "Recent posts in sidebar"
-msgstr "Articulos recientes en la barra lateral"
+msgstr "Recent posts in sidebar"
 
 # @ decorum
 #: inc/functions.widgets.php:1584
 msgid "Default"
-msgstr "Por defecto"
+msgstr "Default"
 
 # @ decorum
 #: admin/admin_pages/docs.php:76 inc/functions.helper.php:77
 #: inc/functions.helper.php:95 inc/functions.helper.php:397
 #: page-tpl-subpages-full.php:54 page-tpl-subpages.php:56
 msgid "More info"
-msgstr "Más info"
+msgstr "Plus d'infos"
 
 # @ decorum
 #: admin/admin_pages/docs.php:18 admin/admin_pages/options.php:33
 msgid "Basic Questions"
-msgstr "Preguntas básicas"
+msgstr "Questions basiques"
 
 # @ decorum
 #: admin/admin_pages/docs.php:19 admin/admin_pages/options.php:34
 msgid "General Usage"
-msgstr "Uso general"
+msgstr "Usage général"
 
 # @ decorum
 #: admin/admin_pages/docs.php:20 admin/admin_pages/options.php:35
 msgid "Theme Docs"
-msgstr "Instrucciones"
+msgstr "instructions"
 
 # @ decorum
 #: admin/admin_pages/docs.php:21 admin/admin_pages/options.php:36
 msgid "Forum"
-msgstr "Foro"
+msgstr "Forum"
 
 # @ decorum
 #: admin/admin_pages/docs.php:25 admin/admin_pages/docs.php:50
@@ -552,17 +553,17 @@ msgstr "Login"
 # @ decorum
 #: admin/admin_pages/docs.php:26
 msgid "Profile"
-msgstr "Perfil"
+msgstr "Profil"
 
 # @ decorum
 #: admin/admin_pages/docs.php:36 admin/admin_pages/docs.php:72
 msgid "Affiliate Program"
-msgstr "Afiliados"
+msgstr "Affiliate Program"
 
 # @ decorum
 #: admin/admin_pages/docs.php:37 admin/admin_pages/docs.php:82
 msgid "Developer Mode"
-msgstr "Modo programador"
+msgstr "Developer Mode"
 
 # @ decorum
 #: admin/admin_pages/docs.php:48
@@ -572,15 +573,15 @@ msgid ""
 "ThemeShift website. I will then manually upgrade your account. Please bear "
 "with me on week ends."
 msgstr ""
-"Los temas de ThemeShift vienen con derecho a soporte. Esto significa que "
-"después de comprar un tema de ThemeShift puede registrarse en el sitio web "
-"de ThemeShift. A continuación su cuenta será acutalizada manualmente. Por "
-"favor, tengan paciencia conmigo los fines de semana."
+"ThemeShift theme packages inlcude support. That means that after purchasing "
+"a theme from ThemeShift you can register and create an account on the "
+"ThemeShift website. I will then manually upgrade your account. Please bear "
+"with me on week ends."
 
 # @ decorum
 #: admin/admin_pages/docs.php:50
 msgid "Register"
-msgstr "Registrarse"
+msgstr "Inscrire"
 
 # @ decorum
 #: admin/admin_pages/docs.php:50 admin/admin_pages/docs.php:66
@@ -591,7 +592,7 @@ msgstr "ou"
 # @ decorum
 #: admin/admin_pages/docs.php:52
 msgid "Theme Support"
-msgstr "Soporte de temas"
+msgstr "Theme Support"
 
 # @ decorum
 #: admin/admin_pages/docs.php:54
@@ -600,14 +601,14 @@ msgid ""
 "documentation, tutorials, screencasts and the support forum. You can find "
 "useful shortlinks in the top bar of the theme options page."
 msgstr ""
-"Una vez que su cuenta se actualiza usted tiene acceso a documentación "
-"extensa, totorales, screencasts y le foro de soporte. Usted puede encontrar "
-"enlaces útiles en la barra superior de las páginas de opciones."
+"Once your account is upgraded you have access to extensive theme "
+"documentation, tutorials, screencasts and the support forum. You can find "
+"useful shortlinks in the top bar of the theme options page."
 
 # @ decorum
 #: admin/admin_pages/docs.php:56
 msgid "Customizations"
-msgstr "Personalizaciones"
+msgstr "Customizations"
 
 # @ decorum
 #: admin/admin_pages/docs.php:58
@@ -615,19 +616,18 @@ msgid ""
 "In the forum I try to cover minor theme modifications and tweaks. For major "
 "customizations please check out the list of recommended co-workers."
 msgstr ""
-"En el foro trato de cubrir modificaciones y ajustes menores. Para "
-"personalizaciones mayores favor eche un vistazo a la lista de diseñadores "
-"recomendados."
+"In the forum I try to cover minor theme modifications and tweaks. For major "
+"customizations please check out the list of recommended co-workers."
 
 # @ decorum
 #: admin/admin_pages/docs.php:60
 msgid "Custom Work"
-msgstr "Trabajos personalizados"
+msgstr "Custom Work"
 
 # @ decorum
 #: admin/admin_pages/docs.php:62
 msgid "WordPress Support"
-msgstr "Soporte de WordPress"
+msgstr "WordPress Support"
 
 # @ decorum
 #: admin/admin_pages/docs.php:64
@@ -636,9 +636,9 @@ msgid ""
 "questions. If your issue is not theme-related, please visit the Codex or the "
 "official WordPress forum."
 msgstr ""
-"Por favor, comprenda que no puedo proporcionar soporte para preguntas "
-"generales sobre WordPress. Si el problema no está relacionado con el tema, "
-"por favor visite el Codex o el foro oficial de WordPress."
+"Please understand that I cannot provide support for general WordPress "
+"questions. If your issue is not theme-related, please visit the Codex or the "
+"official WordPress forum."
 
 # @ decorum
 #: admin/admin_pages/docs.php:74
@@ -648,10 +648,10 @@ msgid ""
 "commision</strong>. Place a banner on your website and start making serious "
 "cash."
 msgstr ""
-"Regístrese para nuestro programa de afiliados y genere un ingreso extra. Por "
-"cada temas vendido a través de uno de sus enlaces de afiliados obtendrá un "
-"<strong>30% de comisión.</strong> Coloque un banner en su sitio web y a "
-"empezar a hacer dinero."
+"Signup to our affiliate program and generate some extra income. For every "
+"theme package sold through one of your affiliate links you get <strong>30% "
+"commision</strong>. Place a banner on your website and start making serious "
+"cash."
 
 # @ decorum
 #: admin/admin_pages/docs.php:76
@@ -661,32 +661,32 @@ msgstr "Banners"
 # @ decorum
 #: admin/admin_pages/news.php:18
 msgid "All Themes"
-msgstr "Todos los temas"
+msgstr "All Themes"
 
 # @ decorum
 #: admin/admin_pages/news.php:20
 msgid "Affiliates"
-msgstr "Afiliados"
+msgstr "Affiliates"
 
 # @ decorum
 #: admin/admin_pages/news.php:29
 msgid "Latest Themes"
-msgstr "Últimos Temas"
+msgstr "Latest Themes"
 
 # @ decorum
 #: admin/admin_pages/news.php:30
 msgid "Latest News"
-msgstr "Últimas Noticias"
+msgstr "Latest News"
 
 # @ decorum
 #: admin/admin_pages/news.php:35
 msgid "Latest ThemeShift Themes"
-msgstr "Últimos Temas ThemeShift"
+msgstr "Latest ThemeShift Themes"
 
 # @ decorum
 #: admin/admin_pages/options.php:114
 msgid "Reset Options"
-msgstr "Restablecer"
+msgstr "Reset Options"
 
 # @ decorum
 # @ default
@@ -695,55 +695,55 @@ msgstr "Restablecer"
 #: admin/classes/subclasses/class-custom_post_type.php:158
 #: inc/functions.helper.php:296 index.php:33
 msgid "Theme Options"
-msgstr "Opciones del tema"
+msgstr "Theme Options"
 
 # @ decorum
 #: admin/admin_pages/news.php:5 admin/admin_pages/settings.php:19
 #: admin/classes/subclasses/class-admin_menu.php:39
 msgid "Themes &amp; News"
-msgstr "Temas y Noticias"
+msgstr "Themes &amp; News"
 
 # @ decorum
 #: admin/admin_pages/settings.php:255
 msgid "Import"
-msgstr "Importar"
+msgstr "Import"
 
 # @ decorum
 #: admin/admin_pages/settings.php:267
 msgid "Export"
-msgstr "Exportar"
+msgstr "Exporter"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_menu.php:44
 msgid "Option Settings"
-msgstr "Configuración de opciones"
+msgstr "Option Settings"
 
 # @ decorum
 # @ default
 #: admin/classes/subclasses/class-admin_menu.php:44
 #: admin/classes/subclasses/class-custom_post_type.php:158
 msgid "Settings"
-msgstr "Configuración"
+msgstr "Settings"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_menu.php:158
 msgid "Are you sure to import these settings?"
-msgstr "¿Está seguro de importar esta configuración?"
+msgstr "Are you sure to import these settings?"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_menu.php:159
 msgid "Are you sure to delete all of the theme options?"
-msgstr "¿Está seguro de borrar todas las opciones de tema?"
+msgstr "Are you sure to delete all of the theme options?"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_menu.php:160
 msgid "Theme Options saved"
-msgstr "Opciones guardados"
+msgstr "Theme Options saved"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_menu.php:161
 msgid "Theme Options not saved"
-msgstr "Opciones no guardados"
+msgstr "Theme Options not saved"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_menu.php:162
@@ -756,101 +756,101 @@ msgstr "Opciones no guardados"
 #: admin/classes/subclasses/class-admin_views.php:593
 #: inc/functions.widgets.php:1037
 msgid "Please select"
-msgstr "Por favor seleccione"
+msgstr "Merci de sélectionner"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_menu.php:163
 msgid "Theme Options deleted"
-msgstr "Opciones eliminados"
+msgstr "Theme Options deleted"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_menu.php:164
 msgid "Theme Options not deleted"
-msgstr "Opciones no eliminados"
+msgstr "Theme Options not deleted"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_menu.php:165
 msgid "Please insert some data"
-msgstr "Por favor, introduzca algunos datos"
+msgstr "Please insert some data"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_menu.php:166
 msgid "Theme Options successfully imported"
-msgstr "Opciones importados correctamente"
+msgstr "Theme Options successfully imported"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_menu.php:167
 msgid "Theme Options could not be imported"
-msgstr "Opciones no importados correctamente"
+msgstr "Theme Options could not be imported"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_views.php:58
 #: admin/classes/subclasses/class-admin_views.php:102
 msgid "No pages available"
-msgstr "No hay páginas disponibles"
+msgstr "No pages available"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_views.php:142
 #: admin/classes/subclasses/class-admin_views.php:185
 msgid "No posts available"
-msgstr "No hay entradas disponibles"
+msgstr "No posts available"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_views.php:225
 #: admin/classes/subclasses/class-admin_views.php:268
 msgid "No tags available"
-msgstr "No hay etiquetas disponibles"
+msgstr "No tags available"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_views.php:308
 #: admin/classes/subclasses/class-admin_views.php:351
 msgid "No custom posts available"
-msgstr "No hay custom posts disponibles"
+msgstr "No custom posts available"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_views.php:474
 #: admin/classes/subclasses/class-admin_views.php:517
 msgid "No categories available"
-msgstr "No hay categorías disponibles"
+msgstr "No categories available"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_views.php:736
 #: admin/ts-functions.php:216
 msgid "Add slide"
-msgstr "Añadir slide"
+msgstr "Add slide"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_views.php:781
 #: admin/ts-functions.php:136
 msgid "Image URL"
-msgstr "URL de la imagen"
+msgstr "Image URL"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_views.php:787
 #: admin/ts-functions.php:142
 msgid "Link URL"
-msgstr "URL del enlace"
+msgstr "Link URL"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_views.php:793
 #: admin/ts-functions.php:148
 msgid "Description"
-msgstr "Descripción"
+msgstr "Description"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_views.php:808
 msgid "Edit"
-msgstr "Editar"
+msgstr "éditer"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_views.php:809
 msgid "Delete"
-msgstr "Eliminar"
+msgstr "Supprimer"
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_views.php:922
 msgid "Click text box to open color picker"
-msgstr "Haga clic en cuadro de texto para abrir selector de color"
+msgstr "Click text box to open color picker"
 
 # @ default
 #: admin/classes/subclasses/class-custom_post_type.php:36
@@ -877,37 +877,37 @@ msgstr ""
 # @ decorum
 #: admin/ts-functions.php:173
 msgid "Custom Logo"
-msgstr "Logo personalizado"
+msgstr "Custom Logo"
 
 # @ decorum
 #: admin/ts-functions.php:175
 msgid "Custom Favicon"
-msgstr "Favicon personalizado"
+msgstr "Custom Favicon"
 
 # @ decorum
 #: admin/ts-functions.php:176
 msgid "Please enter an URL or upload your custom favicon."
-msgstr "Por favor, introduzca una URL o subir su favicon personalizado."
+msgstr "Please enter an URL or upload your custom favicon."
 
 # @ decorum
 #: admin/ts-functions.php:177
 msgid "Custom RSS"
-msgstr "RSS personalizado"
+msgstr "Custom RSS"
 
 # @ decorum
 #: admin/ts-functions.php:183
 msgid "Styling"
-msgstr "Estilo"
+msgstr "Styling"
 
 # @ decorum
 #: admin/ts-functions.php:184
 msgid "Custom Styling"
-msgstr "Estilo personalizado"
+msgstr "Custom Styling"
 
 # @ decorum
 #: admin/ts-functions.php:185
 msgid "Activate custom styling options"
-msgstr "Activar opciones de personalización de estilo"
+msgstr "Activate custom styling options"
 
 # @ decorum
 #: admin/ts-functions.php:186
@@ -916,161 +916,163 @@ msgid ""
 "Do not forget to activate the styling options. Otherwise they will have no "
 "effect."
 msgstr ""
-"<strong style=\"color:red;text-transform:uppercase\">Atención!</strong> No "
-"olvide de activar las opciones de estilo. De lo contrario, no tendrán ningún "
-"efecto."
+"<strong style=\"color:red;text-transform:uppercase\">Please notice!</strong> "
+"Do not forget to activate the styling options. Otherwise they will have no "
+"effect."
 
 # @ decorum
 #: admin/ts-functions.php:187
 msgid "Background Image"
-msgstr "Imagen de fondo"
+msgstr "Background Image"
 
 # @ decorum
 #: admin/ts-functions.php:188
 msgid "Please enter a URL or upload a background image."
-msgstr "Por favor, introduzca una URL o cargar una imagen de fondo."
+msgstr "Please enter a URL or upload a background image."
 
 # @ decorum
 #: admin/ts-functions.php:189
 msgid "Background Image Repeat"
-msgstr "Repetición"
+msgstr "Background Image Repeat"
 
 # @ decorum
 #: admin/ts-functions.php:190
 msgid "Please selete how you would like to repeat the background image."
-msgstr "Por favor, elija cómo le gustaría repetir la imagen de fondo."
+msgstr "Please selete how you would like to repeat the background image."
 
 # @ decorum
 #: admin/ts-functions.php:191
 msgid "Background Image Position"
-msgstr "Posición"
+msgstr "Background Image Position"
 
 # @ decorum
 #: admin/ts-functions.php:192
 msgid "Please select how you would like to position the background image."
-msgstr "Por favor, elija cómo desea posicionar la imagen de fondo."
+msgstr "Please select how you would like to position the background image."
 
 # @ decorum
 #: admin/ts-functions.php:195
 msgid "Background Color"
-msgstr "Color de fondo"
+msgstr "Background Color"
 
 # @ decorum
 #: admin/ts-functions.php:196
 msgid "Please pick a custom background color of the theme."
-msgstr "Por favor, elija un color de fondo del tema."
+msgstr "Please pick a custom background color of the theme."
 
 # @ decorum
 #: admin/ts-functions.php:197
 msgid "Button Color"
-msgstr "Color de botón"
+msgstr "Button Color"
 
 # @ decorum
 #: admin/ts-functions.php:198
 msgid "Please pick a color for buttons."
-msgstr "Por favor, elija un color para los botones."
+msgstr "Please pick a color for buttons."
 
 # @ decorum
 #: admin/ts-functions.php:199
 msgid "Link Color"
-msgstr "Color de enlaces"
+msgstr "Link Color"
 
 # @ decorum
 #: admin/ts-functions.php:200
 msgid "Please pick a color for links."
-msgstr "Por favor, elija un color para los enlaces."
+msgstr "Please pick a color for links."
 
 # @ decorum
 #: admin/ts-functions.php:201
 msgid "Link Color Hover"
-msgstr "Color de enlace hover"
+msgstr "Link Color Hover"
 
 # @ decorum
 #: admin/ts-functions.php:202
 msgid "Please pick a color for links hover."
-msgstr "Por favor, elija un color para el hover de los enlaces."
+msgstr "Please pick a color for links hover."
 
 # @ decorum
 #: admin/ts-functions.php:273
 msgid "Archive Layout"
-msgstr "Plantilla de archivo"
+msgstr "Archive Layout"
 
 # @ decorum
 #: admin/ts-functions.php:277
 msgid "Archive Meta"
-msgstr "Meta archivo"
+msgstr "Archive Meta"
 
 # @ decorum
 #: admin/ts-functions.php:278
 msgid "Display post date"
-msgstr "Mostrar fecha de entrada"
+msgstr "Display post date"
 
 # @ decorum
 #: admin/ts-functions.php:281
 msgid "Display comments number"
-msgstr "Mostrar número de comentarios"
+msgstr "Display comments number"
 
 # @ decorum
 #: admin/ts-functions.php:280
 msgid "Display post author"
-msgstr "Mostrar autor de entrada"
+msgstr "Display post author"
 
 # @ decorum
 #: admin/ts-functions.php:214
 msgid "Static Slides"
-msgstr "Slides estáticos"
+msgstr "Static Slides"
 
 # @ decorum
 #: admin/ts-functions.php:220
 msgid "Display previous and next buttons"
-msgstr "Mostrar los botones anterior y siguiente"
+msgstr "Display previous and next buttons"
 
 # @ decorum
 #: admin/ts-functions.php:291
 msgid ""
 "The following social icons will be displayed on the right side of the header "
 "section."
-msgstr "Los iconos sociales aparecerán en la parte derecha de la cabecera."
+msgstr ""
+"The following social icons will be displayed on the right side of the header "
+"section."
 
 # @ decorum
 #: admin/ts-functions.php:306
 msgid "Place your custom text in the left footer."
-msgstr "Coloque su texto en el footer izquierdo."
+msgstr "Place your custom text in the left footer."
 
 # @ decorum
 #: admin/ts-functions.php:307
 msgid "Footer Left (disable)"
-msgstr "Footer izquierdo (desactivar)"
+msgstr "Footer Left (disable)"
 
 # @ decorum
 #: admin/ts-functions.php:308
 msgid "Tick the box to hide the left footer"
-msgstr "Marque la casilla para ocultar el footer izquierdo"
+msgstr "Tick the box to hide the left footer"
 
 # @ decorum
 #: admin/ts-functions.php:309
 msgid "Footer Right"
-msgstr "Footer derecho"
+msgstr "Footer Right"
 
 # @ decorum
 #: admin/ts-functions.php:310
 msgid "Place your custom text in the right footer."
-msgstr "Coloque su texto en el footer derecho."
+msgstr "Place your custom text in the right footer."
 
 # @ decorum
 #: admin/ts-functions.php:311
 msgid "Footer Right (disable)"
-msgstr "Footer derecho (desactivar)"
+msgstr "Footer Right (disable)"
 
 # @ decorum
 #: admin/ts-functions.php:312
 msgid "Tick the box to hide the right footer"
-msgstr "Marque la casilla para ocultar el footer derecho"
+msgstr "Tick the box to hide the right footer"
 
 # @ decorum
 #: admin/ts-functions.php:315
 msgid "Branding Options"
-msgstr "Opciones de marca"
+msgstr "Branding Options"
 
 # @ decorum
 #: admin/ts-functions.php:316
@@ -1081,78 +1083,76 @@ msgid ""
 "useful if you are creating a site for a client and want to put his branding "
 "or simply hide any ThemeShift related elements."
 msgstr ""
-"<strong style=\"color:red;text-transform:uppercase\">Atención!</strong> Está "
-"viendo las opciones de marca porque se ha activado el modo de programador en "
-"el archivo de tema <code>ts-config.php</code> . Son útiles si va a crear un "
-"sitio para un cliente y quiere poner su marca o simplemente ocultar los "
-"elementos relacionados con ThemeShift."
+"<strong style=\"color:red;text-transform:uppercase\">Please notice!</strong> "
+"You&#039;re seeing the branding options because you have activated the "
+"developer mode in  the theme file <code>ts-config.php</code>. They are "
+"useful if you are creating a site for a client and want to put his branding "
+"or simply hide any ThemeShift related elements."
 
 # @ decorum
 #: admin/ts-functions.php:317
 msgid "Hide Basic Questions / General Usage / Theme Docs / Forum etc."
-msgstr "Ocultar Preguntas básicas / Uso general / Instruciones / Foro etc."
+msgstr "Hide Basic Questions / General Usage / Theme Docs / Forum etc."
 
 # @ decorum
 #: admin/ts-functions.php:318
 msgid "Hide Themes &amp; News (menu)"
-msgstr "Ocultar Temas y Noticias (menú)"
+msgstr "Hide Themes &amp; News (menu)"
 
 # @ decorum
 #: admin/ts-functions.php:319
 msgid "Hide Help Center (menu)"
-msgstr "Ocultar Centro de Ayuda (menú)"
+msgstr "Hide Help Center (menu)"
 
 # @ decorum
 #: admin/ts-functions.php:320
 msgid "Options Panel Logo"
-msgstr "Logo opciones"
+msgstr "Options Panel Logo"
 
 # @ decorum
 #: admin/ts-functions.php:322
 msgid "Please enter an URL or upload your custom menu icon (16x16px)."
-msgstr ""
-"Por favor, introduzca una URL o subir un icono de menú personalizado "
-"(16x16px)."
+msgstr "Please enter an URL or upload your custom menu icon (16x16px)."
 
 # @ decorum
 #: archive.php:70 inc/functions.widgets.php:556 page-tpl-blog.php:69
 #: single.php:22
 msgid "by"
-msgstr "por"
+msgstr "by"
 
 # @ decorum
 #: archive.php:70 inc/functions.widgets.php:556 page-tpl-blog.php:69
 #: single.php:22
 msgid "Leave a reply"
-msgstr "Deja una respuesta"
+msgstr "Leave a reply"
 
 # @ decorum
 #: archive.php:70 inc/functions.widgets.php:556 page-tpl-blog.php:69
 #: single.php:22
 msgid "1 Comment"
-msgstr "1 comentario"
+msgstr "1 commentaire"
 
 # @ decorum
 #: archive.php:70 inc/functions.widgets.php:556 page-tpl-blog.php:69
 #: single.php:22
 msgid "% Comments"
-msgstr "% comentarios"
+msgstr "% commentaires"
 
 # @ decorum
 #: archive.php:70 inc/functions.widgets.php:556 page-tpl-blog.php:69
 #: single.php:22
 msgid "Comments off"
-msgstr "Comentarios desactivados"
+msgstr "Comments off"
 
 # @ decorum
 #: inc/functions.helper.php:281 index.php:37
 msgid "Create a custom menu"
-msgstr "Crear un menú personalizado"
+msgstr "Create a custom menu"
 
 # @ decorum
 #: inc/functions.widgets.php:25 inc/functions.widgets.php:35
 msgid "Home Page"
-msgstr "Página de inicio"
+msgstr "Home Page"
 
 # @ decorum
 #: inc/functions.widgets.php:35 inc/functions.widgets.php:45
@@ -1161,279 +1161,279 @@ msgstr "Página de inicio"
 #: inc/functions.widgets.php:115 inc/functions.widgets.php:125
 #: inc/functions.widgets.php:135
 msgid "Sidebar"
-msgstr "Barra lateral"
+msgstr "Sidebar"
 
 # @ decorum
 #: inc/functions.widgets.php:135
 msgid "Pages"
-msgstr "Páginas"
+msgstr "Pages"
 
 # @ decorum
 #: admin/ts-functions.php:305
 msgid "Footer Left"
-msgstr "Footer izquierdo"
+msgstr "Footer gauche"
 
 # @ decorum
 #: admin/ts-functions.php:321
 msgid "Options Panel Icon"
-msgstr "Icono de menú"
+msgstr "Options Panel Icon"
 
 # @ decorum
 #: admin/ts-functions.php:323
 msgid "WordPress Login Logo"
-msgstr "Logo WordPress login"
+msgstr "WordPress Login Logo"
 
 # @ decorum
 #: single.php:49
 msgid "Previous post"
-msgstr "Entrada anterior"
+msgstr "post précédent"
 
 # @ decorum
 #: single.php:50
 msgid "Next post"
-msgstr "Entrada siguiente"
+msgstr "post suivant"
 
 # @ decorum
 #: 404.php:11
 msgid "Sorry, this page doesn't exist."
-msgstr "Lo sentimos, esta página no existe."
+msgstr "Désolé, cette page n'existe pas."
 
 # @ decorum
 #: admin/classes/subclasses/class-admin_views.php:390
 #: admin/classes/subclasses/class-admin_views.php:434
 msgid "No taxonomies available"
-msgstr "No hay taxonomías disponibles"
+msgstr "Aucune taxonomie disponible"
 
 # @ decorum
 #: admin/ts-functions.php:193
 msgid "Background Image Attachment"
-msgstr "Fijación"
+msgstr "Background Image Attachment"
 
 # @ decorum
 #: admin/ts-functions.php:194
 msgid "Background image fixed"
-msgstr "Fijar / no escrolear imagen de fondo"
+msgstr "Background image fixed"
 
 # @ decorum
 #: admin/ts-functions.php:204
 msgid "Home Sidebar"
-msgstr "Barra lateral página de inicio"
+msgstr "Home Sidebar"
 
 # @ decorum
 #: admin/ts-functions.php:205
 msgid "Display sidebar on home page"
-msgstr "Mostrar barra lateral en página de inicio"
+msgstr "Display sidebar on home page"
 
 # @ decorum
 #: admin/ts-functions.php:206 admin/ts-functions.php:231
 #: admin/ts-functions.php:275
 msgid "Display sidebar on the left"
-msgstr "Mostrar barra lateral en la parte izquierda"
+msgstr "Display sidebar on the left"
 
 # @ decorum
 #: admin/ts-functions.php:207
 msgid "Slider Size"
-msgstr "Tamaño slider"
+msgstr "Slider Size"
 
 # @ decorum
 #: admin/ts-functions.php:208
 msgid "Display small slider (no sidebar = large slider)"
-msgstr "Mostrar slider pequeño (solo si hay barra lateral)"
+msgstr "Display small slider (no sidebar = large slider)"
 
 # @ decorum
 #: admin/ts-functions.php:209
 msgid "Slider Content"
-msgstr "Contenido slider"
+msgstr "Slider Content"
 
 # @ decorum
 #: admin/ts-functions.php:210
 msgid "Property Category"
-msgstr "Categoría inmobiliaria"
+msgstr "Catégorie bien"
 
 # @ decorum
 #: admin/ts-functions.php:211
 msgid "If property category selected for slider content."
-msgstr "Si se ha elegido categoría inmobiliaria para contenido."
+msgstr "If property category selected for slider content."
 
 # @ decorum
 #: admin/ts-functions.php:212
 msgid "Post Category"
-msgstr "Categoría artículos"
+msgstr "Catégorie Post"
 
 # @ decorum
 #: admin/ts-functions.php:213
 msgid "If post category selected for slider content."
-msgstr "Si se ha elegido categoría de artículos para contenido."
+msgstr "If post category selected for slider content."
 
 # @ decorum
 #: admin/ts-functions.php:215
 msgid ""
 "Add your static slides to the slider (overwrites slider content selected "
 "above)."
-msgstr "Añadir slides estáticos (sobrescribe el contenido elegido arriba)."
+msgstr ""
+"Add your static slides to the slider (overwrites slider content selected "
+"above)."
 
 # @ decorum
 #: admin/ts-functions.php:217
 msgid "Slider Overlay"
-msgstr "Overlay slider"
+msgstr "Slider Overlay"
 
 # @ decorum
 #: admin/ts-functions.php:218
 msgid "Show slider overlay"
-msgstr "Mostrar el overlay del slider"
+msgstr "Show slider overlay"
 
 # @ decorum
 #: admin/ts-functions.php:219
 msgid "Slider Navigation"
-msgstr "Navegación slider"
+msgstr "Slider Navigation"
 
 # @ decorum
 #: admin/ts-functions.php:221
 msgid "Slider Effect"
-msgstr "Efecto slider"
+msgstr "Slider Effect"
 
 # @ decorum
 #: admin/ts-functions.php:222
 msgid "Slider Auto"
-msgstr "Auto slider"
+msgstr "Slider Auto"
 
 # @ decorum
 #: admin/ts-functions.php:223
 msgid "Time between animations in seconds."
-msgstr "Tiempo en segundos entre las animaciones."
+msgstr "Time between animations in seconds."
 
 # @ decorum
 #: admin/ts-functions.php:224 inc/functions.properties.php:175
 #: inc/functions.widgets.php:45
 msgid "Properties"
-msgstr "Objetos"
+msgstr "Biens"
 
 # @ decorum
 #: admin/ts-functions.php:225
 msgid "Property Archive Layout"
-msgstr "Layout archivo inmobiliario"
+msgstr "Property Archive Layout"
 
 # @ decorum
 #: admin/ts-functions.php:226 inc/functions.widgets.php:173
 msgid "Property Search"
-msgstr "Búsqueda de objetos"
+msgstr "Recherche de biens"
 
 # @ decorum
 #: admin/ts-functions.php:227
 msgid "Display search form on property archive pages"
-msgstr "Mostrar formulario de búsqueda en archivos inmobiliarios"
+msgstr "Display search form on property archive pages"
 
 # @ decorum
 #: admin/ts-functions.php:228
 msgid "Display search form on single property pages"
-msgstr "Mostrar formulario de búsqueda en páginas de objetos individuales"
+msgstr "Display search form on single property pages"
 
 # @ decorum
 #: admin/ts-functions.php:230
 msgid "Property Sidebar"
-msgstr "Barra lateral inmobiliaria"
+msgstr "Property Sidebar"
 
 # @ decorum
 #: admin/ts-functions.php:232
 msgid "Property Single Layout"
-msgstr "Layout objetos individuales"
+msgstr "Property Single Layout"
 
 # @ decorum
 #: admin/ts-functions.php:233
 msgid "Display sidebar (no sidebar = large image)"
-msgstr "Mostrar barra lateral (sin barra lateral = imagen grande)"
+msgstr "Display sidebar (no sidebar = large image)"
 
 # @ decorum
 #: admin/ts-functions.php:234
 msgid "Display large image"
-msgstr "Mostrar imagen grande"
+msgstr "Display large image"
 
 # @ decorum
 #: admin/ts-functions.php:235
 msgid "Property Single Elements"
-msgstr "Elementos objetos individuales"
+msgstr "Display large image"
 
 # @ decorum
 #: admin/ts-functions.php:236
 msgid "Display favorites link"
-msgstr "Mostrar enlace a favoritos"
+msgstr "Display favorites link"
 
 # @ decorum
 #: admin/ts-functions.php:237
 msgid "Display print link"
-msgstr "Mostrar enlace para imprimir"
+msgstr "Display print link"
 
 # @ decorum
 #: admin/ts-functions.php:238
 msgid "Display property ID"
-msgstr "Mostrar ID de objetos"
+msgstr "Display print link"
 
 # @ decorum
 #: admin/ts-functions.php:239
 msgid "Display property type"
-msgstr "Mostrar tipo de vivienda"
+msgstr "Display property type"
 
 # @ decorum
 #: admin/ts-functions.php:240
 msgid "Display loaction"
-msgstr "Mostrar ubicación"
+msgstr "Display loaction"
 
 # @ decorum
 #: admin/ts-functions.php:241
 msgid "Display price button"
-msgstr "Mostrar botón de precio"
+msgstr "Display price button"
 
 # @ decorum
 #: admin/ts-functions.php:242
 msgid "Display date"
-msgstr "Mostrar fecha"
+msgstr "Display date"
 
 # @ decorum
 #: admin/ts-functions.php:243
 msgid "Price Button Link"
-msgstr "Enlace del botón de precio"
+msgstr "Price Button Link"
 
 # @ decorum
 #: admin/ts-functions.php:244
 msgid "If empty, price button will be a jump link to contact widget."
-msgstr ""
-"Si está vacío, el botón de precio será un enlace de salto al widget de "
-"contacto."
+msgstr "If empty, price button will be a jump link to contact widget."
 
 # @ decorum
 #: admin/ts-functions.php:245
 msgid "Property Navigation"
-msgstr "Navegación de objetos"
+msgstr "Property Navigation"
 
 # @ decorum
 #: admin/ts-functions.php:246
 msgid "Enable single property paging"
-msgstr "Mostrar navegación en páginas de objetos individuales"
+msgstr "Enable single property paging"
 
 # @ decorum
 #: admin/ts-functions.php:247
 msgid "Standard Feature #1"
-msgstr "Criterio estándar #1"
+msgstr "Caractéristique #1"
 
 # @ decorum
 #: admin/ts-functions.php:248
 msgid "Standard Feature #2"
-msgstr "Criterio estándar #2"
+msgstr "Caractéristique #2"
 
 # @ decorum
 #: admin/ts-functions.php:249
 msgid "Standard Feature #3"
-msgstr "Criterio estándar #3"
+msgstr "Caractéristique #3"
 
 # @ decorum
 #: admin/ts-functions.php:250
 msgid "Standard Feature #4"
-msgstr "Criterio estándar #4"
+msgstr "Caractéristique #4"
 
 # @ decorum
 #: admin/ts-functions.php:251
 msgid "Standard Feature #5"
-msgstr "Criterio estándar #5"
+msgstr "Caractéristique #5"
 
 # @ decorum
 #: admin/ts-functions.php:252 inc/functions.meta-box.php:134
@@ -1445,7 +1445,7 @@ msgstr "Superficie"
 #: admin/ts-functions.php:253 inc/functions.meta-box.php:135
 #: inc/functions.strings.php:13
 msgid "Terrace"
-msgstr "Terraza"
+msgstr "Terrasse"
 
 # @ decorum
 #: admin/ts-functions.php:254 inc/functions.meta-box.php:136
@@ -1456,113 +1456,112 @@ msgstr "Parking"
 #: admin/ts-functions.php:255 inc/functions.meta-box.php:137
 #: inc/functions.strings.php:14
 msgid "Heating"
-msgstr "Calefacción"
+msgstr "Chauffage"
 
 # @ decorum
 #: admin/ts-functions.php:256 inc/functions.meta-box.php:138
 msgid "Year Built"
-msgstr "Año de construcción"
+msgstr "Année de construction"
 
 # @ decorum
 #: admin/ts-functions.php:257
 msgid "Property ID Prefix"
-msgstr "Prefijo de ID"
+msgstr "préfixe ID bien"
 
 # @ decorum
 #: admin/ts-functions.php:258
 msgid "The property ID will be this prefix plus post ID."
-msgstr "El ID de la propiedad será este prefijo más el ID de post."
+msgstr "The property ID will be this prefix plus post ID."
 
 # @ decorum
 #: admin/ts-functions.php:259
 msgid "Measurement Unit"
-msgstr "Unidad de medida"
+msgstr "Unité de mesure"
 
 # @ decorum
 #: admin/ts-functions.php:264
 msgid "Currency"
-msgstr "Moneda"
+msgstr "Devise"
 
 # @ decorum
 #: admin/ts-functions.php:265
 msgid "Currency Symbol"
-msgstr "Símbolo de moneda"
+msgstr "Symbole de la devise"
 
 # @ decorum
 #: admin/ts-functions.php:266
 msgid "Display currency symbol after amount"
-msgstr "Mostrar símbolo de moneda después de la cantidad"
+msgstr "Display currency symbol after amount"
 
 # @ decorum
 #: admin/ts-functions.php:267
 msgid "Rental Period #1"
-msgstr "Período de alquiler # 1"
+msgstr "Rental Period #1"
 
 # @ decorum
 #: admin/ts-functions.php:268
 msgid "Rental Period #2"
-msgstr "Período de alquiler #2"
+msgstr "Rental Period #2"
 
 # @ decorum
 #: admin/ts-functions.php:269
 msgid "Rental Period #3"
-msgstr "Período de alquiler #3"
+msgstr "Rental Period #3"
 
 # @ decorum
 #: admin/ts-functions.php:270 inc/functions.meta-box.php:67
 #: inc/functions.properties.php:79
 msgid "per Month"
-msgstr "por mes"
+msgstr "par mois"
 
 # @ decorum
 #: admin/ts-functions.php:271 inc/functions.meta-box.php:68
 #: inc/functions.properties.php:75
 msgid "per Week"
-msgstr "por semana"
+msgstr "par semaine"
 
 # @ decorum
 #: admin/ts-functions.php:272 inc/functions.meta-box.php:69
 #: inc/functions.properties.php:77
 msgid "per Year"
-msgstr "por año"
+msgstr "par an"
 
 # @ decorum
 #: admin/ts-functions.php:274
 msgid "Archive Sidebar"
-msgstr "Barra lateral de archivo"
+msgstr "Archive Sidebar"
 
 # @ decorum
 #: admin/ts-functions.php:276
 msgid ""
 "This affects the sidebar on archive pages, single posts and static pages."
 msgstr ""
-"Esto afecta a la barra lateral de las páginas de archivo, los posts "
-"individuales y las páginas estáticas."
+"This affects the sidebar on archive pages, single posts and static pages."
 
 # @ decorum
 #: admin/ts-functions.php:279
 msgid "Display category"
-msgstr "Mostrar categoría"
+msgstr "Afficher catégorie"
 
 # @ decorum
 #: admin/ts-functions.php:282
 msgid "Post Navigation"
-msgstr "Navegación de artículos"
+msgstr "Navigation dans les articles"
 
 # @ decorum
 #: admin/ts-functions.php:283
 msgid "Enable single post paging"
-msgstr "Mostrar navegación en artículos individuales"
+msgstr "Enable single post paging"
 
 # @ decorum
 #: admin/ts-functions.php:285
 msgid "Allow comments on posts"
-msgstr "Permitir comentarios en artículos"
+msgstr "Allow comments on posts"
 
 # @ decorum
 #: admin/ts-functions.php:286
 msgid "Allow comments on pages"
-msgstr "Permitir comentarios en páginas estáticas"
+msgstr "Allow comments on pages"
 
 # @ decorum
 #: admin/ts-functions.php:287
@@ -1572,47 +1571,47 @@ msgstr "Social"
 # @ decorum
 #: admin/ts-functions.php:288
 msgid "Header Top"
-msgstr "Cabecera"
+msgstr "Header Top"
 
 # @ decorum
 #: admin/ts-functions.php:289
 msgid "Need expert advice? <strong>Call us now - 555 555 555</strong>"
-msgstr "¿Necesita ayuda? <strong>Llámenos ahora - 555 555 555</strong>"
+msgstr "Besoin d'un expert? <strong>Appelez-nous au 555 555 555</strong>"
 
 # @ decorum
 #: admin/ts-functions.php:290
 msgid "Social Icons"
-msgstr "Iconos sociales"
+msgstr "Social Icons"
 
 # @ decorum
 #: admin/ts-functions.php:292
 msgid "Icon #1"
-msgstr "Icono #1"
+msgstr "Icone #1"
 
 # @ decorum
 #: admin/ts-functions.php:293
 msgid "Icon #2"
-msgstr "Icono #2"
+msgstr "Icone #2"
 
 # @ decorum
 #: admin/ts-functions.php:294
 msgid "Icon #3"
-msgstr "Icono #3"
+msgstr "Icone #3"
 
 # @ decorum
 #: admin/ts-functions.php:295
 msgid "Icon #4"
-msgstr "Icono #4"
+msgstr "Icone #4"
 
 # @ decorum
 #: admin/ts-functions.php:296
 msgid "Icon #5"
-msgstr "Icono #5"
+msgstr "Icone #5"
 
 # @ decorum
 #: admin/ts-functions.php:297
 msgid "Icon #6"
-msgstr "Icono #6"
+msgstr "Icone #6"
 
 # @ decorum
 #: admin/ts-functions.php:298
@@ -1652,27 +1651,27 @@ msgstr "Haut de la page"
 # @ decorum
 #: admin/ts-functions.php:314
 msgid "Display scroll to top"
-msgstr "Mostrar enlace para escrolear arriba"
+msgstr "Display scroll to top"
 
 # @ decorum
 #: admin/ts-functions.php:370
 msgid "Profile Image"
-msgstr "Imagen de perfíl"
+msgstr "Profile Image"
 
 # @ decorum
 #: admin/ts-functions.php:380
 msgid "Remove image"
-msgstr "Eliminar imagen"
+msgstr "Remove image"
 
 # @ decorum
 #: comments.php:105
 msgid "Your comment"
-msgstr "Su comentario"
+msgstr "Your comment"
 
 # @ decorum
 #: comments.php:111
 msgid "Please complete required fields"
-msgstr "Por favor, complete los campos requeridos"
+msgstr "Please complete required fields"
 
 # @ decorum
 #: footer.php:20
@@ -1680,25 +1679,24 @@ msgid ""
 "This is the footer widget area. Please go to <code>WP-Admin > Appearance > "
 "Widgets</code> to drag and drop your preferred widgets in this area."
 msgstr ""
-"Esta es el área widget del footer. Por favor, vaya a <code>WP-Admin &gt; "
-"Apariencia &gt; Widgets</code> para arrastrar sus widgets preferidos a este "
-"área."
+"This is the footer widget area. Please go to <code>WP-Admin > Appearance > "
+"Widgets</code> to drag and drop your preferred widgets in this area."
 
 # @ decorum
 #: inc/functions.filters.php:372 inc/functions.properties.php:180
 msgid "Property Type"
-msgstr "Tipo de inmueble"
+msgstr "Type de bien"
 
 # @ decorum
 #: inc/functions.filters.php:380 inc/functions.properties.php:181
 msgid "Feature"
-msgstr "Característica"
+msgstr "Caractéristique"
 
 # @ decorum
 #: inc/functions.filters.php:388 inc/functions.post-type.php:230
 #: inc/functions.properties.php:182 inc/property-search.php:44
 msgid "Location"
-msgstr "Ubicación"
+msgstr "Emplacement"
 
 # @ decorum
 #: inc/contact-form.php:16 inc/contact-form.php:24 inc/contact-form.php:35
@@ -1706,23 +1704,23 @@ msgstr "Ubicación"
 #: inc/contact-tellafriend.php:57 inc/contact-tellafriend.php:68
 #: inc/contact-tellafriend.php:103
 msgid "This field is required!"
-msgstr "Este campo es obligatorio!"
+msgstr "This field is required!"
 
 # @ decorum
 #: inc/contact-form.php:27 inc/contact-form.php:96
 #: inc/contact-tellafriend.php:60 inc/contact-tellafriend.php:110
 msgid "Please enter a valid email!"
-msgstr "Por favor, introduzca un correo electrónico válido!"
+msgstr "Merci de rentrer un email valide"
 
 # @ decorum
 #: inc/contact-form.php:51 inc/contact-form.php:53
 msgid "Contact"
-msgstr "Contacto"
+msgstr "Contact"
 
 # @ decorum
 #: inc/contact-form.php:56 inc/contact-tellafriend.php:82
 msgid "Name"
-msgstr "Nombre"
+msgstr "Nom"
 
 # @ decorum
 #: inc/contact-form.php:56
@@ -1732,365 +1730,362 @@ msgstr "E-mail"
 # @ decorum
 #: inc/contact-form.php:56 inc/contact-tellafriend.php:82
 msgid "Message"
-msgstr "Mensaje"
+msgstr "Message"
 
 # @ decorum
 #: inc/contact-form.php:58 inc/contact-tellafriend.php:83
 #: inc/functions.properties.php:175
 msgid "Property"
-msgstr "Inmueble"
+msgstr "Bien"
 
 # @ decorum
 #: inc/contact-form.php:66 inc/contact-form.php:68
 msgid "Copy"
-msgstr "Copia"
+msgstr "Copie"
 
 # @ decorum
 #: inc/contact-form.php:103 inc/contact-tellafriend.php:117
 msgid "Loading"
-msgstr "Cargando"
+msgstr "Chargement"
 
 # @ decorum
 #: inc/contact-form.php:109 inc/contact-form.php:124
 #: inc/contact-tellafriend.php:123 inc/contact-tellafriend.php:138
 msgid "<strong>Thanks!</strong> Your email was successfully sent."
-msgstr ""
-"<strong>¡Muchas gracias!</strong> Su mensaje se ha enviado correctamente."
+msgstr "<strong>Merci!</strong> Votre message a été envoyé."
 
 # @ decorum
 #: inc/contact-form.php:136 inc/contact-tellafriend.php:150
 msgid "There was an error submitting the form!"
-msgstr "Hubo un error al enviar el formulario!"
+msgstr "Erreur!"
 
 # @ decorum
 #: inc/contact-form.php:155 inc/contact-tellafriend.php:169
 msgid "Your message"
-msgstr "Su mensaje"
+msgstr "Votre message"
 
 # @ decorum
 #: inc/contact-form.php:162 inc/contact-tellafriend.php:176
 msgid "If you want to submit this form, do not enter anything in this field!"
-msgstr "Si desea enviar este formulario, no introduzca nada en este campo!"
+msgstr "If you want to submit this form, do not enter anything in this field!"
 
 # @ decorum
 #: inc/contact-form.php:167 inc/contact-tellafriend.php:181
 msgid "Submit message"
-msgstr "Enviar mensaje"
+msgstr "Envoyer le message"
 
 # @ decorum
 #: inc/contact-form.php:171
 msgid "Send copy to your email"
-msgstr "Enviar copia a su correo electrónico"
+msgstr "Vous envoyez une copie par email"
 
 # @ decorum
 #: inc/contact-tellafriend.php:31
 msgid "Tell a friend"
-msgstr "Enviar a un amigo"
+msgstr "Contacter un ami"
 
 # @ decorum
 #: inc/contact-tellafriend.php:32
 msgid "Contact form"
-msgstr "Formulario de contacto"
+msgstr "Formulaire de contact"
 
 # @ decorum
 #: inc/contact-tellafriend.php:163
 msgid "Friend's email"
-msgstr "E-mail del amigo"
+msgstr "email de votre ami(e)"
 
 # @ decorum
 #: inc/functions.meta-box.php:143 inc/functions.post-type.php:224
 msgid "Bedrooms"
-msgstr "Dormitorios"
+msgstr "Chambre(s) à coucher"
 
 # @ decorum
 #: inc/functions.meta-box.php:156 inc/functions.post-type.php:226
 msgid "Bathrooms"
-msgstr "Baños"
+msgstr "Pièces"
 
 # @ decorum
 #: inc/functions.meta-box.php:133 inc/functions.strings.php:11
 msgid "Plot Size"
-msgstr "Parcela"
+msgstr "Taille de la parcelle"
 
 # @ decorum
 #: inc/functions.meta-box.php:123
 msgid "Property Details"
-msgstr "Detalles del inmueble"
+msgstr "Détails du bien"
 
 # @ decorum
 #: inc/functions.meta-box.php:32 inc/functions.meta-box.php:74
 #: inc/functions.post-type.php:205 inc/property-search.php:122
 msgid "Price"
-msgstr "Precio"
+msgstr "Prix"
 
 # @ decorum
 #: inc/functions.meta-box.php:224 inc/functions.widgets.php:669
 msgid "Property Location"
-msgstr "Ubicación del inmueble"
+msgstr "Emplacement du bien"
 
 # @ decorum
 #: inc/functions.meta-box.php:104
 msgid "Property is rented"
-msgstr "Vivienda está alquilada"
+msgstr "Le bien est loué"
 
 # @ decorum
 #: inc/functions.meta-box.php:45
 msgid "Property is sold"
-msgstr "Vivienda está vendida"
+msgstr "Le bien est vendu"
 
 # @ decorum
 #: inc/functions.meta-box.php:231
 msgid "Enter property address"
-msgstr "Introduzca la dirección del inmueble"
+msgstr "Entrer l'adresse du bien"
 
 # @ decorum
 #: inc/functions.meta-box.php:235
 msgid ""
 "e.g. <em>Marbella, Spain</em> or <em>Platz der Republik 1, 10557 Berlin</em>"
 msgstr ""
-"por ejemplo, <em>Marbella, España</em> o <em>Platz der Republik 1, 10557 "
-"Berlín</em>"
+"e.g. <em>Marbella, Spain</em> or <em>Platz der Republik 1, 10557 Berlin</em>"
 
 # @ decorum
 #: inc/functions.meta-box.php:244
 msgid "Enter latitude"
-msgstr "Introducir latitud"
+msgstr "Enter latitude"
 
 # @ decorum
 #: inc/functions.meta-box.php:248
 msgid "Geo code e.g. <em>36.509937</em>"
-msgstr "Código geo, por ejemplo <em>36.509937</em>"
+msgstr "Geo code e.g. <em>36.509937</em>"
 
 # @ decorum
 #: inc/functions.meta-box.php:257
 msgid "Enter longitude"
-msgstr "Introducir longitud"
+msgstr "Enter longitude"
 
 # @ decorum
 #: inc/functions.meta-box.php:261
 msgid "Geo code e.g. <em>-4.886352</em>"
-msgstr "Código geo, por ejemplo  <em>-4.886352</em>"
+msgstr "Geo code e.g. <em>-4.886352</em>"
 
 # @ decorum
 #: inc/functions.meta-box.php:54 inc/functions.meta-box.php:113
 #: inc/functions.meta-box.php:270
 msgid "Please notice!"
-msgstr "Note por favor!"
+msgstr "Please notice!"
 
 # @ decorum
 #: inc/functions.meta-box.php:292
 msgid "The geo code will overwrite any value given in the address field."
-msgstr ""
-"El código geo sobrescribirá cualquier valor dado en el campo de dirección."
+msgstr "The geo code will overwrite any value given in the address field."
 
 # @ decorum
 #: inc/functions.post-type.php:22
 msgctxt "sale"
 msgid "Properties (for Sale)"
-msgstr "Inmuebles (en venta)"
+msgstr "Biens (à vendre)"
 
 # @ decorum
 #: inc/functions.post-type.php:23
 msgctxt "sale"
 msgid "Property (for Sale)"
-msgstr "Inmueble (en venta)"
+msgstr "Bien (à vendre)"
 
 # @ decorum
 #: inc/functions.post-type.php:24
 msgctxt "sale"
 msgid "Add New"
-msgstr "Añadir"
+msgstr "Ajouter un nouveau bien"
 
 # @ decorum
 #: inc/functions.post-type.php:25
 msgctxt "sale"
 msgid "Add New Property"
-msgstr "Añadir nuevo inmueble"
+msgstr "Ajouter un nouveau bien"
 
 # @ decorum
 #: inc/functions.post-type.php:26
 msgctxt "sale"
 msgid "Edit Property"
-msgstr "Editar inmueble"
+msgstr "éditer un bien"
 
 # @ decorum
 #: inc/functions.post-type.php:27
 msgctxt "sale"
 msgid "New Property"
-msgstr "Nuevo inmueble"
+msgstr "Ajouter un bien"
 
 # @ decorum
 #: inc/functions.post-type.php:28
 msgctxt "sale"
 msgid "View Property"
-msgstr "Ver inmueble"
+msgstr "Voir un bien"
 
 # @ decorum
 #: inc/functions.post-type.php:29
 msgctxt "sale"
 msgid "Search Properties"
-msgstr "Buscar inmuebles"
+msgstr "Recherche biens"
 
 # @ decorum
 #: inc/functions.post-type.php:30
 msgctxt "sale"
 msgid "No properties found"
-msgstr "No se encontraron inmuebles"
+msgstr "Aucun bien trouvé"
 
 # @ decorum
 #: inc/functions.post-type.php:31
 msgctxt "sale"
 msgid "No properties found in Trash"
-msgstr "No se encontraron inmuebles en la papelera"
+msgstr "Aucun bien dans la corbeille"
 
 # @ decorum
 #: inc/functions.post-type.php:32
 msgctxt "sale"
 msgid "Parent Property:"
-msgstr "Inmueble superior:"
+msgstr "Bien parent:"
 
 # @ decorum
 #: inc/functions.post-type.php:33
 msgctxt "sale"
 msgid "For Sale"
-msgstr "En venta"
+msgstr "à vendre"
 
 # @ decorum
 #: inc/functions.post-type.php:58
 msgctxt "rent"
 msgid "Properties (for Rent)"
-msgstr "Inmuebles (en alquiler)"
+msgstr "Biens (à louer)"
 
 # @ decorum
 #: inc/functions.post-type.php:59
 msgctxt "rent"
 msgid "Property (for Rent)"
-msgstr "Inmueble (en alquiler)"
+msgstr "Bien (à louer)"
 
 # @ decorum
 #: inc/functions.post-type.php:60
 msgctxt "rent"
 msgid "Add New"
-msgstr "Añadir"
+msgstr "Ajouter un nouveau bien"
 
 # @ decorum
 #: inc/functions.post-type.php:61
 msgctxt "rent"
 msgid "Add New Property"
-msgstr "Añadir nuevo inmueble"
+msgstr "Ajouter un nouveau bien"
 
 # @ decorum
 #: inc/functions.post-type.php:62
 msgctxt "rent"
 msgid "Edit Property"
-msgstr "Editar inmueble"
+msgstr "éditer un bien"
 
 # @ decorum
 #: inc/functions.post-type.php:63
 msgctxt "rent"
 msgid "New Property"
-msgstr "Nuevo inmueble"
+msgstr "Ajouter un bien"
 
 # @ decorum
 #: inc/functions.post-type.php:64
 msgctxt "rent"
 msgid "View Property"
-msgstr "Ver inmueble"
+msgstr "Voir un bien"
 
 # @ decorum
 #: inc/functions.post-type.php:65
 msgctxt "rent"
 msgid "Search Properties"
-msgstr "Buscar inmuebles"
+msgstr "Recherche biens"
 
 # @ decorum
 #: inc/functions.post-type.php:66
 msgctxt "rent"
 msgid "No properties found"
-msgstr "No se encontraron inmuebles"
+msgstr "Aucun bien trouvé"
 
 # @ decorum
 #: inc/functions.post-type.php:67
 msgctxt "rent"
 msgid "No properties found in Trash"
-msgstr "No se encontraron inmuebles en la papelera"
+msgstr "Aucun bien trouvé dans la corbeille"
 
 # @ decorum
 #: inc/functions.post-type.php:68
 msgctxt "rent"
 msgid "Parent Property:"
-msgstr "Inmueble superior:"
+msgstr "Bien parent:"
 
 # @ decorum
 #: inc/functions.post-type.php:69
 msgctxt "rent"
 msgid "For Rent"
-msgstr "En alquiler"
+msgstr "à louer"
 
 # @ decorum
 #: inc/functions.post-type.php:122
 msgctxt "taxonomy general name"
 msgid "Locations"
-msgstr "Ubicaciones"
+msgstr "Emplacements"
 
 # @ decorum
 #: inc/functions.post-type.php:123
 msgctxt "taxonomy singular name"
 msgid "Location"
-msgstr "Ubicación"
+msgstr "Emplacement"
 
 # @ decorum
 #: inc/functions.post-type.php:135
 msgctxt "taxonomy general name"
 msgid "Types"
-msgstr "Tipos"
+msgstr "Types"
 
 # @ decorum
 #: inc/functions.post-type.php:136
 msgctxt "taxonomy singular name"
 msgid "Property Type"
-msgstr "Tipo de inmueble"
+msgstr "Type de bien"
 
 # @ decorum
 #: inc/functions.post-type.php:148
 msgctxt "taxonomy general name"
 msgid "Features"
-msgstr "Características"
+msgstr "Caractéristiques"
 
 # @ decorum
 #: inc/functions.post-type.php:149
 msgctxt "taxonomy singular name"
 msgid "Feature"
-msgstr "Característica"
+msgstr "Caractéristique"
 
 # @ decorum
 #: inc/functions.post-type.php:161
 msgctxt "taxonomy general name"
 msgid "Categories (for Sale)"
-msgstr "Categorías (en venta)"
+msgstr "Catégories (à vendre)"
 
 # @ decorum
 #: inc/functions.post-type.php:162
 msgctxt "taxonomy singular name"
 msgid "Category (for Sale)"
-msgstr "Categoría (en venta)"
+msgstr "Catégorie (à vendre)"
 
 # @ decorum
 #: inc/functions.post-type.php:175
 msgctxt "taxonomy general name"
 msgid "Categories (for Rent)"
-msgstr "Categorías (en alquiler)"
+msgstr "Catégories (à louer)"
 
 # @ decorum
 #: inc/functions.post-type.php:176
 msgctxt "taxonomy singular name"
 msgid "Category (for Rent)"
-msgstr "Categoría (en alquiler)"
+msgstr "Catégorie (à louer)"
 
 # @ decorum
 #: inc/functions.post-type.php:202
 msgid "Details"
-msgstr "Detalles"
+msgstr "Détails"
 
 # @ decorum
 #: inc/functions.post-type.php:203
@@ -2100,27 +2095,27 @@ msgstr "Info"
 # @ decorum
 #: inc/functions.post-type.php:204
 msgid "Image"
-msgstr "Imagen"
+msgstr "Image"
 
 # @ decorum
 #: inc/functions.post-type.php:222
 msgid "Size"
-msgstr "Tamaño"
+msgstr "Taille"
 
 # @ decorum
 #: inc/functions.post-type.php:231 inc/property-search.php:56
 msgid "Type"
-msgstr "Tipo"
+msgstr "Type"
 
 # @ decorum
 #: inc/functions.post-type.php:232 inc/property-details.php:141
 msgid "Features"
-msgstr "Características"
+msgstr "Caractéristiques"
 
 # @ decorum
 #: inc/functions.post-type.php:251
 msgid "not specified"
-msgstr "no se especifica"
+msgstr "non spécifié"
 
 # @ decorum
 #: inc/functions.post-type.php:256 inc/functions.widgets.php:344
@@ -2129,12 +2124,12 @@ msgstr "no se especifica"
 #: page-tpl-properties-sale.php:92 page-tpl-properties.php:92
 #: properties.php:69
 msgid "Sold"
-msgstr "Vendida"
+msgstr "Vendu"
 
 # @ decorum
 #: inc/functions.post-type.php:257
 msgid "For sale"
-msgstr "En venta"
+msgstr "à vendre"
 
 # @ decorum
 #: inc/functions.post-type.php:260 inc/functions.widgets.php:346
@@ -2143,124 +2138,124 @@ msgstr "En venta"
 #: page-tpl-properties-sale.php:94 page-tpl-properties.php:94
 #: properties.php:71
 msgid "Rented"
-msgstr "Alquilada"
+msgstr "Loué"
 
 # @ decorum
 #: inc/functions.post-type.php:261
 msgid "For rent"
-msgstr "En alquiler"
+msgstr "à louer"
 
 # @ decorum
 #: inc/functions.meta-box.php:41 inc/functions.meta-box.php:100
 #: inc/functions.post-type.php:263
 msgid "Status"
-msgstr "Estado"
+msgstr "Statut"
 
 # @ decorum
 #: inc/functions.post-type.php:342
 msgid "Show all"
-msgstr "Mostrar todos"
+msgstr "Tous les voir"
 
 # @ decorum
 #: inc/functions.properties.php:104 inc/functions.properties.php:113
 msgid "Price on request"
-msgstr "A consultar"
+msgstr "Prix sur demande"
 
 # @ decorum
 #: inc/functions.properties.php:176
 msgid "Search Results"
-msgstr "Resultados"
+msgstr "Résultats de la recherche"
 
 # @ decorum
 #: inc/functions.properties.php:188
 msgid "Favorites"
-msgstr "Favoritos"
+msgstr "Favoris"
 
 # @ decorum
 #: inc/functions.properties.php:193 inc/functions.widgets.php:920
 msgid "Property Agent"
-msgstr "Agente inmobiliario"
+msgstr "Agent du bien"
 
 # @ decorum
 #: inc/functions.widgets.php:27
 msgid "Main content on the home page"
-msgstr "Contenido principal de la página de inicio"
+msgstr "Contenu principal sur la page d'accueil"
 
 # @ decorum
 #: inc/functions.widgets.php:37
 msgid "Sidebar on the home page"
-msgstr "Barra lateral de la página de inicio"
+msgstr "Sidebar on the home page"
 
 # @ decorum
 #: inc/functions.widgets.php:47
 msgid "General sidebar of property pages"
-msgstr "Barra lateral general de las páginas de inmuebles"
+msgstr "General sidebar of property pages"
 
 # @ decorum
 #: inc/functions.widgets.php:55 inc/functions.widgets.php:65
 msgid "Properties Sales"
-msgstr "Inmuebles en venta"
+msgstr "Biens à vendre"
 
 # @ decorum
 #: inc/functions.widgets.php:57 inc/functions.widgets.php:77
 msgid "Main content on single property pages"
-msgstr "Contenido principal en las páginas de inmuebles individuales"
+msgstr "Main content on single property pages"
 
 # @ decorum
 #: inc/functions.widgets.php:57 inc/functions.widgets.php:67
 msgid "sales"
-msgstr "venta"
+msgstr "ventes"
 
 # @ decorum
 #: inc/functions.widgets.php:67 inc/functions.widgets.php:87
 msgid "Sidebar on single property pages"
-msgstr "Barra lateral de páginas de inmuebles individuales"
+msgstr "Sidebar on single property pages"
 
 # @ decorum
 #: inc/functions.widgets.php:75 inc/functions.widgets.php:85
 msgid "Properties Rentals"
-msgstr "Inmuebles en alquiler"
+msgstr "Biens à louer"
 
 # @ decorum
 #: inc/functions.widgets.php:77 inc/functions.widgets.php:87
 msgid "rentals"
-msgstr "alquiler"
+msgstr "locations"
 
 # @ decorum
 #: inc/functions.widgets.php:95
 msgid "Properties Archive"
-msgstr "Archivo de inmuebles"
+msgstr "Archive des biens "
 
 # @ decorum
 #: inc/functions.widgets.php:97
 msgid "Sidebar on property archive pages"
-msgstr "Barra lateral de archivos de inmuebles"
+msgstr "Sidebar on property archive pages"
 
 # @ decorum
 #: inc/functions.widgets.php:107
 msgid "General sidebar on posts, pages and archives"
-msgstr "Barra lateral general en los posts, páginas estáticas y archivos"
+msgstr "General sidebar on posts, pages and archives"
 
 # @ decorum
 #: inc/functions.widgets.php:107 inc/functions.widgets.php:117
 #: inc/functions.widgets.php:127 inc/functions.widgets.php:137
 msgid "not properties"
-msgstr "no inmuebles"
+msgstr "aucun bien"
 
 # @ decorum
 #: inc/functions.widgets.php:117
 msgid "Sidebar on archive pages"
-msgstr "Barra lateral de archivos"
+msgstr "Sidebar on archive pages"
 
 # @ decorum
 #: inc/functions.widgets.php:127
 msgid "Sidebar on single post pages"
-msgstr "Barra lateral de posts individuales"
+msgstr "Sidebar on single post pages"
 
 # @ decorum
 #: inc/functions.widgets.php:137
 msgid "Sidebar on single static pages"
-msgstr "Barra lateral de páginas estáticas"
+msgstr "Sidebar on single static pages"
 
 # @ decorum
 #: inc/functions.widgets.php:145
@@ -2270,273 +2265,273 @@ msgstr "Footer"
 # @ decorum
 #: inc/functions.widgets.php:147
 msgid "Widget area in the footer section"
-msgstr "Àrea de widgets en el footer"
+msgstr "Widget area in the footer section"
 
 # @ decorum
 #: inc/functions.widgets.php:172
 msgid "Show property search form"
-msgstr "Mostrar formulario de búsqueda de inmuebles"
+msgstr "Show property search form"
 
 # @ decorum
 #: inc/functions.widgets.php:233
 msgid "Show latest properties"
-msgstr "Mostrar inmuebles recientes"
+msgstr "Show latest properties"
 
 # @ decorum
 #: inc/functions.widgets.php:234
 msgid "Property Teaser"
-msgstr "Ùltimos inmuebles"
+msgstr "Property Teaser"
 
 # @ decorum
 #: inc/functions.widgets.php:284 inc/functions.widgets.php:511
 msgid "See all"
-msgstr "Ver todos"
+msgstr "Tous les voir"
 
 # @ decorum
 #: inc/functions.widgets.php:337 inc/property-details.php:44
 #: inc/property-search.php:68 inc/slider-full.php:145
 #: page-tpl-favorites.php:78
 msgid "Beds"
-msgstr "Habitactiones"
+msgstr "Chambres"
 
 # @ decorum
 #: inc/functions.widgets.php:340 inc/property-details.php:47
 #: inc/property-search.php:80 inc/slider-full.php:150
 #: page-tpl-favorites.php:81
 msgid "Baths"
-msgstr "Baños"
+msgstr "Pièces"
 
 # @ decorum
 #: inc/functions.widgets.php:407
 msgid "Filter"
-msgstr "Filtro"
+msgstr "Filtre"
 
 # @ decorum
 #: inc/functions.widgets.php:409
 msgid "All properties"
-msgstr "Todos los inmuebles"
+msgstr "Tous les biens"
 
 # @ decorum
 #: inc/functions.widgets.php:410
 msgid "Most recent for sale"
-msgstr "Más recientes en venta"
+msgstr "Bien le plus récent à la vente"
 
 # @ decorum
 #: inc/functions.widgets.php:411
 msgid "Most recent for rent"
-msgstr "Más recientes en alquiler"
+msgstr "Bien le plus récent à la location"
 
 # @ decorum
 #: inc/functions.widgets.php:431
 msgid "Show property thumbnail"
-msgstr "Mostrar miniatura del inmueble"
+msgstr "Show property thumbnail"
 
 # @ decorum
 #: inc/functions.widgets.php:436
 msgid "Show property details"
-msgstr "Mostrar detalles del inmueble"
+msgstr "Montrer les détails du bien"
 
 # @ decorum
 #: inc/functions.widgets.php:441
 msgid "Show property price"
-msgstr "Mostrar precio del inmueble"
+msgstr "Show property price"
 
 # @ decorum
 #: inc/functions.widgets.php:446 inc/functions.widgets.php:639
 msgid "Show more info button"
-msgstr "Mostrar botón más info"
+msgstr "Show more info button"
 
 # @ decorum
 #: inc/functions.widgets.php:449 inc/functions.widgets.php:642
 #: inc/functions.widgets.php:1286
 msgid "Width"
-msgstr "Ancho"
+msgstr "Largeur"
 
 # @ decorum
 #: inc/functions.widgets.php:455 inc/functions.widgets.php:648
 msgid "(Width of one property box)"
-msgstr "(Ancho de un inmueble)"
+msgstr "(Width of one property box)"
 
 # @ decorum
 #: inc/functions.widgets.php:474
 msgid "Show latest posts"
-msgstr "Mostrar artículos recientes"
+msgstr "Show latest posts"
 
 # @ decorum
 #: inc/functions.widgets.php:475
 msgid "Category Teaser"
-msgstr "Ùltimos artículos"
+msgstr "Category Teaser"
 
 # @ decorum
 #: inc/functions.widgets.php:611
 msgid "Most recent posts"
-msgstr "Artículos más recientes"
+msgstr "Most recent posts"
 
 # @ decorum
 #: inc/functions.widgets.php:634
 msgid "Show post meta"
-msgstr "Mostrar detalles del artículo"
+msgstr "Show post meta"
 
 # @ decorum
 #: inc/functions.widgets.php:668
 msgid "Google Map"
-msgstr "Mapa Google"
+msgstr "Google Map"
 
 # @ decorum
 #: inc/functions.widgets.php:668 inc/functions.widgets.php:802
 #: inc/functions.widgets.php:919 inc/functions.widgets.php:1063
 msgid "only single properties"
-msgstr "sólo inmuebles individuales"
+msgstr "only single properties"
 
 # @ decorum
 #: inc/functions.widgets.php:764
 msgid "Map type"
-msgstr "Tipo de mapa"
+msgstr "Map type"
 
 # @ decorum
 #: inc/functions.widgets.php:766
 msgid "Map"
-msgstr "Mapa"
+msgstr "Map"
 
 # @ decorum
 #: inc/functions.widgets.php:767
 msgid "Satellite"
-msgstr "Satélite"
+msgstr "Satellite"
 
 # @ decorum
 #: inc/functions.widgets.php:770
 msgid "Zoom level"
-msgstr "Nivel de zoom"
+msgstr "Zoom level"
 
 # @ decorum
 #: inc/functions.widgets.php:781
 msgid "Enable streetview"
-msgstr "Activar streetview"
+msgstr "Enable streetview"
 
 # @ decorum
 #: inc/functions.widgets.php:802
 msgid "Image Gallery"
-msgstr "Galería de imágenes"
+msgstr "Image Gallery"
 
 # @ decorum
 #: inc/functions.widgets.php:803
 msgid "Property Gallery"
-msgstr "Galería de inmuebles"
+msgstr "Property Gallery"
 
 # @ decorum
 #: inc/functions.widgets.php:893
 msgid "Image size"
-msgstr "Tamaño de imagen"
+msgstr "Image size"
 
 # @ decorum
 #: inc/functions.widgets.php:919
 msgid "Property agent info"
-msgstr "Información del agente inmobiliario"
+msgstr "Agent du bien"
 
 # @ decorum
 #: inc/functions.widgets.php:960
 msgid "Contact Agent"
-msgstr "Contactar con el agente"
+msgstr "Contacter l'agent"
 
 # @ decorum
 #: inc/functions.widgets.php:1005
 msgid "Agent name as widget title"
-msgstr "Nombre del agente como título del widget"
+msgstr "Agent name as widget title"
 
 # @ decorum
 #: inc/functions.widgets.php:1010
 msgid "Link name with agent archive"
-msgstr "Enlazar nombre con el archivo del agente"
+msgstr "Link name with agent archive"
 
 # @ decorum
 #: inc/functions.widgets.php:1015
 msgid "Show profile image"
-msgstr "Mostrar imagen de perfil"
+msgstr "Show profile image"
 
 # @ decorum
 #: inc/functions.widgets.php:1020
 msgid "Show agent avatar"
-msgstr "Mostrar avatar del agente"
+msgstr "Show agent avatar"
 
 # @ decorum
 #: inc/functions.widgets.php:1023 inc/functions.widgets.php:1274
 msgid "Image align"
-msgstr "Alineamiento de imagen"
+msgstr "Image align"
 
 # @ decorum
 #: inc/functions.widgets.php:1025 inc/functions.widgets.php:1273
 msgid "right"
-msgstr "derecha"
+msgstr "right"
 
 # @ decorum
 #: inc/functions.widgets.php:1026 inc/functions.widgets.php:1272
 msgid "left"
-msgstr "izquierda"
+msgstr "left"
 
 # @ decorum
 #: inc/functions.widgets.php:1027 inc/functions.widgets.php:1257
 msgid "none"
-msgstr "ninguna"
+msgstr "none"
 
 # @ decorum
 #: inc/functions.widgets.php:1032
 msgid "Show contact link"
-msgstr "Mostrar enlace de contacto"
+msgstr "Show contact link"
 
 # @ decorum
 #: inc/functions.widgets.php:1035
 msgid "Contact Link"
-msgstr "Enlace contacto"
+msgstr "Contact Link"
 
 # @ decorum
 #: inc/functions.widgets.php:1043
 msgid "If empty, button will be a jump link to contact widget."
-msgstr "Si está vacío, el botón será un enlace de salto al widget de contacto."
+msgstr "If empty, button will be a jump link to contact widget."
 
 # @ decorum
 #: inc/functions.widgets.php:1063
 msgid "Contact Form"
-msgstr "Formulario de contacto"
+msgstr "Formulaire de contact"
 
 # @ decorum
 #: inc/functions.widgets.php:1064
 msgid "Property Contact"
-msgstr "Contacto"
+msgstr "Contact bien"
 
 # @ decorum
 #: inc/functions.widgets.php:1133
 msgid "Show tell-a-friend"
-msgstr "Mostrar enviar a un amigo"
+msgstr "Montrer tell-a-friend"
 
 # @ decorum
 #: inc/functions.widgets.php:1136
 msgid "Emails of this form will be sent to the author of the property entry."
-msgstr "E-mails de este formulario serán enviados al autor de la entrada."
+msgstr "Emails of this form will be sent to the author of the property entry."
 
 # @ decorum
 #: inc/functions.widgets.php:1136
 msgid "Optionally provide an email you prefer."
-msgstr "Opcionalmente, proporcionar un correo electrónico."
+msgstr "Optionally provide an email you prefer."
 
 # @ decorum
 #: inc/functions.widgets.php:1321 inc/functions.widgets.php:1364
 msgid "Make the user do <em>something</em>"
-msgstr "Hacer que el usuario haga <em>algo</em>"
+msgstr "Make the user do <em>something</em>"
 
 # @ decorum
 #: inc/property-details.php:100
 msgid "Published"
-msgstr "Publicado"
+msgstr "Publié"
 
 # @ decorum
 #: inc/property-search.php:35
 msgid "Sale"
-msgstr "Venta"
+msgstr "Vente"
 
 # @ decorum
 #: inc/property-search.php:36
 msgid "Rent"
-msgstr "Alquiler"
+msgstr "Location"
 
 # @ decorum
 #: inc/slider-full.php:142 inc/slider-full.php:147 inc/slider-full.php:152
@@ -2546,97 +2541,97 @@ msgstr "n/d"
 # @ decorum
 #: inc/slider-single-full.php:45 inc/slider-single.php:45
 msgid "Add to Favorites"
-msgstr "Añadir a favoritos"
+msgstr "Ajouter à vos favoris"
 
 # @ decorum
 #: inc/slider-single-full.php:46 inc/slider-single.php:46
 msgid "See Favorites"
-msgstr "Ver favoritos"
+msgstr "Voir vos favoris"
 
 # @ decorum
 #: inc/slider-single-full.php:50 inc/slider-single.php:50
 msgid "Print Property"
-msgstr "Imprimir"
+msgstr "Imprimer la fiche du bien"
 
 # @ decorum
 #: page-tpl-favorites.php:64
 msgid "Remove"
-msgstr "Eliminar"
+msgstr "Supprimer"
 
 # @ decorum
 #: page-tpl-favorites.php:102 page-tpl-favorites.php:106
 msgid "You currently have no favorites."
-msgstr "Actualmente no tiene favoritos."
+msgstr "Vous n'avez aucun favori."
 
 # @ decorum
 #: page-tpl-map.php:68
 msgid "This property is for sale"
-msgstr "Esta propiedad está en venta"
+msgstr "Ce bien est à vendre"
 
 # @ decorum
 #: page-tpl-map.php:68
 msgid "This property is for rent"
-msgstr "Esta propiedad está en alquiler"
+msgstr "Ce bien est à louer"
 
 # @ decorum
 #: properties.php:96
 msgid "Sorry, no properties matched your criteria."
-msgstr "Lo sentimos, no hay propiedades con estas características."
+msgstr "Désole, aucun bien ne correspond à votre recherche."
 
 # @ decorum
 #: properties.php:96
 msgid "Please try again."
-msgstr "Por favor, inténtelo de nuevo."
+msgstr "Merci d'essayer à nouveau."
 
 # @ decorum
 #: single-rent.php:57 single-sale.php:57
 msgid "Previous property"
-msgstr "Inmueble anterior"
+msgstr "Bien précédent"
 
 # @ decorum
 #: single-rent.php:58 single-sale.php:58
 msgid "Next property"
-msgstr "Inmueble siguiente"
+msgstr "Bien suivant"
 
 # @ decorum
 #: inc/contact-tellafriend.php:81
 msgid "recommends you"
-msgstr "te recomienda"
+msgstr "vous recommandons"
 
 # @ decorum
 #: index.php:24
 msgid "Thanks for using my theme! Now it's your turn."
-msgstr "Gracias por utilizar mi tema! Ahora es su turno."
+msgstr "Thanks for using my theme! Now it's your turn."
 
 # @ decorum
 #: index.php:27
 msgid "First Steps"
-msgstr "Primeros Pasos"
+msgstr "First Steps"
 
 # @ decorum
 #: index.php:31
 msgid "Create some example properties"
-msgstr "Crear unos objetos de ejemplo"
+msgstr "Create some example properties"
 
 # @ decorum
 #: index.php:31
 msgid "Add New Property"
-msgstr "Crear nuevo inmueble"
+msgstr "Ajouter un nouveau bien"
 
 # @ decorum
 #: index.php:33
 msgid "Make your settings in the theme options"
-msgstr "Hacer ajustes en la página de opciones del tema"
+msgstr "Make your settings in the theme options"
 
 # @ decorum
 #: index.php:35
 msgid "Drag widgets to the home page widget area"
-msgstr "Arrastrar widgets al área de widgets de la página de inicio"
+msgstr "Drag widgets to the home page widget area"
 
 # @ decorum
 #: index.php:37
 msgid "Add items to the main menu"
-msgstr "Añadir enlaces al menú principal"
+msgstr "Add items to the main menu"
 
 # @ decorum
 #: index.php:43
@@ -2645,14 +2640,14 @@ msgid ""
 "target=\"_blank\">register</a> and head over to the <a href=\"http://"
 "themeshift.com/docs/\" target=\"_blank\">theme docs</a>."
 msgstr ""
-"Si necesita ayuda, por favor, <a href=\"http://themeshift.com/register/\" "
-"target=\"_blank\">regístrese</a> para obtener acceso a la <a href=\"http://"
-"themeshift.com/docs/\" target=\"_blank\">documentación</a> del tema."
+"If you need any help, please <a href=\"http://themeshift.com/register/\" "
+"target=\"_blank\">register</a> and head over to the <a href=\"http://"
+"themeshift.com/docs/\" target=\"_blank\">theme docs</a>."
 
 # @ decorum
 #: index.php:50
 msgid "Dummy Content"
-msgstr "Contenido ejemplar"
+msgstr "Dummy Content"
 
 # @ decorum
 #: index.php:54
@@ -2661,54 +2656,54 @@ msgid ""
 "(also see <a href=\"http://codex.wordpress.org/Importing_Content#WordPress\" "
 "target=\"_blank\">codex</a> about importing content)"
 msgstr ""
-"Para conocer el funcionamiento del tema puede importar contenido ejemplar "
-"(véase <a href=\"http://codex.wordpress.org/Importing_Content#WordPress\" "
-"target=\"_blank\">codex</a> sobre importar contenido)"
+"To get started with the theme you may also want to upload some dummy content "
+"(also see <a href=\"http://codex.wordpress.org/Importing_Content#WordPress\" "
+"target=\"_blank\">codex</a> about importing content)"
 
 # @ decorum
 #: index.php:54
 msgid "Download XML"
-msgstr "Descargar XML"
+msgstr "Download XML"
 
 # @ decorum
 #: admin/ts-functions.php:304
 msgid "Please enter the URL of your social icon."
-msgstr "Por favor, introduzca la dirección URL de su icono social."
+msgstr "Please enter the URL of your social icon."
 
 # @ decorum
 #: inc/functions.strings.php:15
 msgid "Built in"
-msgstr "Año de construcción"
+msgstr "Année de construction"
 
 # @ decorum
 #: inc/property-search.php:21
 msgid "Enter keyword or ID"
-msgstr "Palabra clave o ID"
+msgstr "Enter keyword or ID"
 
 # @ decorum
 #: admin/ts-functions.php:229
 msgid "Display advanced search"
-msgstr "Mostrar búsqueda avanzada"
+msgstr "Display advanced search"
 
 # @ decorum
 #: admin/ts-functions.php:260
 msgid "Price Format"
-msgstr "Formato de precio"
+msgstr "Format prix"
 
 # @ decorum
 #: admin/ts-functions.php:261
 msgid "dot"
-msgstr "punto"
+msgstr "point"
 
 # @ decorum
 #: admin/ts-functions.php:262
 msgid "comma"
-msgstr "coma"
+msgstr "virgule"
 
 # @ decorum
 #: admin/ts-functions.php:263
 msgid "Please select the thousands separator dot (1.000) or comma (1,000)."
-msgstr "Por favor, elija el separador de mil punto (1.000) o coma (1,000)."
+msgstr "Please select the thousands separator dot (1.000) or comma (1,000)."
 
 # @ decorum
 #: inc/functions.meta-box.php:285
@@ -2716,8 +2711,8 @@ msgid ""
 "Do not put currency symbols and thousands separators to make sure the "
 "advanced search for price works correctly."
 msgstr ""
-"Por favor, no ponga ningún símbolo de moneda or separador de mil para que la "
-"búsqueda por precio funcione correctamente."
+"Do not put currency symbols and thousands separators to make sure the "
+"advanced search for price works correctly."
 
 # @ decorum
 #: inc/property-search.php:98
@@ -2772,8 +2767,7 @@ msgstr "Período"
 # @ decorum
 #: inc/functions.meta-box.php:285
 msgid "You can change the price format on the theme settings page."
-msgstr ""
-"Puede cambiar el formato de precios en la página de configuración de tema."
+msgstr "Vous pouvez changer le format du prix dans les paramètres du thème."
 
 # @ decorum
 #: inc/property-search.php:137
