@@ -477,8 +477,8 @@ filename=default.pdf - rename the uploaded file to the given file name
 HOW TO USE WPML SUPPORT:
 Since v2.4.0 field's label and description can be translated using the WordPress Multilingual plug-in.
 To use it in your code you can get the get_cimyFields example above and change only the following lines:
-    echo "LABEL: ".cimy_uef_sanitize_content(cimy_wpml_translate_string($field['LABEL']))." \n";
-    echo "DESCRIPTION: ".cimy_uef_sanitize_content(cimy_wpml_translate_string($field['DESCRIPTION']))." \n";
+    echo "LABEL: ".cimy_uef_sanitize_content(cimy_wpml_translate_string($field['NAME']."_label", $field['LABEL']))." \n";
+    echo "DESCRIPTION: ".cimy_uef_sanitize_content(cimy_wpml_translate_string($field['NAME']."_desc", $field['DESCRIPTION']))." \n";
 
 
 KNOWN ISSUES:
@@ -626,13 +626,20 @@ A lot of times I cannot reproduce the problem and I need more details, so if you
 
 
 CHANGELOG:
+v2.4.1 - 11/02/2013
+- Added support for welcome email, extra fields title and fieldset titles under the WordPress Multilingual plug-in (thanks to Piet for testing it)
+- Added Arabic translation (Mamoun Elkheir)
+- Fixed tabindex is no longer needed for WordPress 3.5 and Theme My Login users
+- Fixed PHP files inclusion, do not include the admin's files if not in the admin area
+- Fixed cursor doesn't appear at the end of the text edit under 'Users Extended'
+
 v2.4.0 - 27/12/2012
 - Added support for the WordPress Multilingual plug-in.
 - Fixed plain text password was staying in the DataBase for registered users (WordPress MS and WordPress + confirmation email only)
 - Fixed (better) background logo was stretched under Safari (thanks to DarioDN)
 - Fixed PHP warnings wpdb::supports_collation usage on WordPress 3.5
 - Fixed PHP warnings wpdb::prepare usage on WordPress 3.5
-- Fixed PHP warnings on Extended Users page on WordPress 3.5
+- Fixed PHP warnings on 'Users Extended' page on WordPress 3.5
 
 v2.3.11 - 29/10/2012
 - Fixed reCAPTCHA was not working on secure webservers (thanks to invisnet for the patch)
