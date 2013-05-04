@@ -289,6 +289,10 @@ function cimy_plugin_install () {
 			}
 		}
 
+		if (version_compare($options['version'], "2.4.2", "<=") === true) {
+			$options["wp_hidden_fields"][] = "username";
+		}
+
 		$options['version'] = $cimy_uef_version;
 
 		cimy_set_options($options);
@@ -365,7 +369,7 @@ function cimy_manage_db($command) {
 		'extra_fields_title' => __("Extra Fields", $cimy_uef_domain),
 		'users_per_page' => 50,
 		'aue_hidden_fields' => array('website', 'posts', 'email'),
-		'wp_hidden_fields' => array(),
+		'wp_hidden_fields' => array('username'),
 		'fieldset_title' => '',
 		'registration-logo' => '',
 		'captcha' => 'none',
@@ -509,7 +513,7 @@ if (!function_exists("cimy_rfr")) {
 }
 
 function cimy_delete_blog_info($blog_id, $drop) {
-	global $cuef_upload_path;
+	global $cuef_upload_path, $cimy_uef_plugins_dir;
 
 	$file_path = $cuef_upload_path.$blog_id."/";
 	
@@ -519,6 +523,16 @@ function cimy_delete_blog_info($blog_id, $drop) {
 	// delete also the subdir
 	if (is_dir($file_path))
 		rmdir($file_path);
+
+	// in this case no need to delete anything, per blog tables are not created
+	if ((is_multisite()) && ($cimy_uef_plugins_dir == "mu-plugins"))
+		$drop = false;
+
+	if ($drop) {
+		cimy_manage_db("drop_wp_fields");
+		cimy_manage_db("drop_extra_fields");
+		cimy_manage_db("drop_data");
+	}
 }
 
 function cimy_delete_users_info($fields_id) {
@@ -594,5 +608,5 @@ function cimy_uef_get_meta_from_user_login($user_login) {
 function cimy_uef_get_meta_from_url($domain, $path) {
 	global $wpdb;
 
-	return $wpdb->get_row($wpdb->prepare("SELECT user_login, user_email, meta FROM ".$wpdb->prefix."signups WHERE domain = %s AND path = %s AND active = %d", $domain, $path, 0), ARRAY_A );
+	return $wpdb->get_row($wpdb->prepare("SELECT user_login, user_email, meta FROM ".$wpdb->prefix."signups WHERE domain = %s AND path = %s AND active = %d", $domain, $path, 0), ARRAY_A);
 }

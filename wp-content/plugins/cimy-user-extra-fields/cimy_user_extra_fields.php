@@ -3,7 +3,7 @@
 Plugin Name: Cimy User Extra Fields
 Plugin URI: http://www.marcocimmino.net/cimy-wordpress-plugins/cimy-user-extra-fields/
 Description: Add some useful fields to registration and user's info
-Version: 2.4.1
+Version: 2.5.0
 Author: Marco Cimmino
 Author URI: mailto:cimmino.marco@gmail.com
 License: GPL2
@@ -155,11 +155,12 @@ require_once($cuef_plugin_dir.'/cimy_uef_email_handler.php');
 require_once($cuef_plugin_dir.'/cimy_uef_db.php');
 require_once($cuef_plugin_dir.'/cimy_uef_register.php');
 require_once($cuef_plugin_dir.'/cimy_uef_functions.php');
+require_once($cuef_plugin_dir.'/cimy_uef_profile.php');
 
 add_action('admin_init', 'cimy_uef_admin_init');
 
 $cimy_uef_name = "Cimy User Extra Fields";
-$cimy_uef_version = "2.4.1";
+$cimy_uef_version = "2.5.0";
 $cimy_uef_url = "http://www.marcocimmino.net/cimy-wordpress-plugins/cimy-user-extra-fields/";
 $cimy_project_url = "http://www.marcocimmino.net/cimy-wordpress-plugins/support-the-cimy-project-paypal/";
 
@@ -183,9 +184,32 @@ cimy_uef_i18n_setup();
 // 	$wp_password_description = __('<strong>Note:</strong> this website let you personalize your password; after the registration you will receive an e-mail with another password, do not care about that!', $cimy_uef_domain);
 
 $wp_hidden_fields = array(
+			'username' => array(
+						'name' => "USERNAME",
+						'userdata_name' => "user_login",
+						'post_name' => "user_login",
+						'type' => "text",
+						'label' => __("Username"),
+						'desc' => '',
+						'value' => '',
+						'store_rule' => array(
+								'max_length' => 100,
+								'can_be_empty' => false,
+								'edit' => 'ok_edit',
+								'email' => false,
+								'show_in_reg' => true,
+								'show_in_profile' => true,
+								'show_in_aeu' => true,
+								'show_in_search' => true,
+								'show_in_blog' => true,
+								'show_level' => -1,
+								'advanced_options' => '',
+								),
+					),
 			'password' => array(
 						'name' => "PASSWORD",
-						'post_name' => "user_pass",
+						'userdata_name' => "user_pass",
+						'post_name' => "pass1",
 						'type' => "password",
 						'label' => __("Password"),
 						'desc' => '',
@@ -206,7 +230,8 @@ $wp_hidden_fields = array(
 					),
 			'password2' => array(
 						'name' => "PASSWORD2",
-						'post_name' => "user_pass2",
+						'userdata_name' => "user_pass2",
+						'post_name' => "pass2",
 						'type' => "password",
 						'label' => __("Password confirmation", $cimy_uef_domain),
 						'desc' => '',
@@ -227,6 +252,7 @@ $wp_hidden_fields = array(
 					),
 			'firstname' => array(
 						'name' => "FIRSTNAME",
+						'userdata_name' => "first_name",
 						'post_name' => "first_name",
 						'type' => "text",
 						'label' => __("First name"),
@@ -248,6 +274,7 @@ $wp_hidden_fields = array(
 					),
 			'lastname' => array(
 						'name' => "LASTNAME",
+						'userdata_name' => "last_name",
 						'post_name' => "last_name",
 						'type' => "text",
 						'label' => __("Last name"),
@@ -269,6 +296,7 @@ $wp_hidden_fields = array(
 					),
 			'nickname' => array(
 						'name' => "NICKNAME",
+						'userdata_name' => "nickname",
 						'post_name' => "nickname",
 						'type' => "text",
 						'label' => __("Nickname"),
@@ -290,7 +318,8 @@ $wp_hidden_fields = array(
 					),
 			'website' => array(
 						'name' => "WEBSITE",
-						'post_name' => "user_url",
+						'userdata_name' => "user_url",
+						'post_name' => "url",
 						'type' => "text",
 						'label' => __("Website"),
 						'desc' => '',
@@ -311,6 +340,7 @@ $wp_hidden_fields = array(
 					),
 			'aim' => array(
 						'name' => "AIM",
+						'userdata_name' => "aim",
 						'post_name' => "aim",
 						'type' => "text",
 						'label' => __("AIM"),
@@ -332,6 +362,7 @@ $wp_hidden_fields = array(
 					),
 			'yahoo' => array(
 						'name' => "YAHOO",
+						'userdata_name' => "yim",
 						'post_name' => "yim",
 						'type' => "text",
 						'label' => __("Yahoo IM"),
@@ -353,6 +384,7 @@ $wp_hidden_fields = array(
 					),
 			'jgt' => array(
 						'name' => "JGT",
+						'userdata_name' => "jabber",
 						'post_name' => "jabber",
 						'type' => "text",
 						'label' => __("Jabber / Google Talk"),
@@ -374,6 +406,7 @@ $wp_hidden_fields = array(
 					),
 			'bio-info' => array(
 						'name' => "BIO-INFO",
+						'userdata_name' => "description",
 						'post_name' => "description",
 						'type' => "textarea",
 						'label' => __("Biographical Info"),
@@ -461,6 +494,9 @@ if (is_multisite()) {
 		add_action('admin_menu', 'cimy_admin_menu_custom');
 	}
 
+	// when blog is switched we need to re-set the table's names
+	add_action('switch_blog', 'cimy_uef_blog_switched', 10, 2);
+
 	// add action to delete all files/images when deleting a blog
 	add_action('delete_blog', 'cimy_delete_blog_info', 10, 2);
 
@@ -538,6 +574,10 @@ else {
 	add_filter('registration_redirect', 'cimy_uef_registration_redirect');
 	// this is needed only in the case where both redirection and email confirmation has been enabled
 	add_action('login_form_cimy_uef_redirect', 'cimy_uef_redirect');
+
+	// add filter to replace the username with the email
+	add_filter('sanitize_user', 'cimy_uef_sanitize_username', 1, 3);
+	add_filter('validate_username', 'cimy_uef_validate_username', 1, 2);
 }
 
 // with Theme My Login is more complicated, but we know how to workaround it
