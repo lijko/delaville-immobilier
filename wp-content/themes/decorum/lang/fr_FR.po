@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: maMaison v0.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-05-05 15:12+0100\n"
+"PO-Revision-Date: 2013-05-05 15:36+0100\n"
 "Last-Translator: bertrandkempf@gmail.com <bertrandkempf@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1576,7 +1576,7 @@ msgstr "Header Top"
 # @ decorum
 #: admin/ts-functions.php:289
 msgid "Need expert advice? <strong>Call us now - 555 555 555</strong>"
-msgstr "Besoin d'un conseil? <strong>Appelez-nous au 03 87 17 45 17</strong>"
+msgstr "Un conseil? <strong>Appelez-nous au 03 87 17 45 17</strong>"
 
 # @ decorum
 #: admin/ts-functions.php:290
