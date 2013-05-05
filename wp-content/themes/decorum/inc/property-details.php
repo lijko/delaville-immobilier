@@ -44,7 +44,7 @@ if(
     <span class="details-beds"><?php echo $property_beds; ?> <?php _e('Beds', TS_DOMAIN); ?></span>
     <?php endif; ?>
     <?php if(get_post_meta($post->ID, '_rooms', true)) : ?>
-    <span class="details-rooms"><?php echo $property_rooms; ?> <?php _e('rooms', TS_DOMAIN); ?></span>
+    <span class="details-rooms"><?php echo $property_rooms; ?> <?php _e('Rooms', TS_DOMAIN); ?></span>
     <?php endif; ?>
     <?php if($ts_property_elements_single[3] || $ts_property_elements_single[4]) : ?>
     <div class="details-location">

@@ -147,7 +147,7 @@ jQuery(document).ready(function($){
 			    			<span class="details-beds"><?php _e('n/d', TS_DOMAIN); ?></span>
 			    			<?php endif; ?>
 			    			<?php if(get_post_meta($post->ID, '_rooms', true)) : ?>
-			    			<span class="details-rooms"><?php echo get_post_meta($post->ID, '_rooms', true); ?> <?php _e('rooms', TS_DOMAIN); ?></span>
+			    			<span class="details-rooms"><?php echo get_post_meta($post->ID, '_rooms', true); ?> <?php _e('Rooms', TS_DOMAIN); ?></span>
 			    			<?php else : ?>
 			    			<span class="details-rooms"><?php _e('n/d', TS_DOMAIN); ?></span>
 			    			<?php endif; ?>

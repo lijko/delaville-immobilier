@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: maMaison v0.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-02-17 16:37+0100\n"
+"PO-Revision-Date: 2013-05-05 15:12+0100\n"
 "Last-Translator: bertrandkempf@gmail.com <bertrandkempf@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgstr ""
 # @ decorum
 #: comments.php:71
 msgid "Leave a Reply"
-msgstr "Leave a Reply"
+msgstr "Laisser une réponse"
 
 # @ decorum
 #: comments.php:71
@@ -280,7 +280,7 @@ msgstr "Display about section in"
 # @ decorum
 #: inc/functions.widgets.php:1836
 msgid "About"
-msgstr "About"
+msgstr "Au sujet de"
 
 # @ decorum
 #: inc/functions.widgets.php:1871
@@ -333,12 +333,12 @@ msgstr "Lire la suite"
 # @ decorum
 #: inc/functions.widgets.php:1159 inc/functions.widgets.php:1160
 msgid "Features Box"
-msgstr "Features Box"
+msgstr "Caractéristiques"
 
 # @ default
 #: inc/functions.widgets.php:1255
 msgid "Icon:"
-msgstr "Icon:"
+msgstr "Icones"
 
 # @ decorum
 #: inc/functions.widgets.php:1267
@@ -516,7 +516,7 @@ msgstr "Recent posts in sidebar"
 # @ decorum
 #: inc/functions.widgets.php:1584
 msgid "Default"
-msgstr "Default"
+msgstr "Par défaut"
 
 # @ decorum
 #: admin/admin_pages/docs.php:76 inc/functions.helper.php:77
@@ -573,7 +573,7 @@ msgid ""
 "ThemeShift website. I will then manually upgrade your account. Please bear "
 "with me on week ends."
 msgstr ""
-"ThemeShift theme packages inlcude support. That means that after purchasing "
+"ThemeShift theme packages include support. That means that after purchasing "
 "a theme from ThemeShift you can register and create an account on the "
 "ThemeShift website. I will then manually upgrade your account. Please bear "
 "with me on week ends."
@@ -603,7 +603,7 @@ msgid ""
 msgstr ""
 "Once your account is upgraded you have access to extensive theme "
 "documentation, tutorials, screencasts and the support forum. You can find "
-"useful shortlinks in the top bar of the theme options page."
+"useful short links in the top bar of the theme options page."
 
 # @ decorum
 #: admin/admin_pages/docs.php:56
@@ -650,7 +650,7 @@ msgid ""
 msgstr ""
 "Signup to our affiliate program and generate some extra income. For every "
 "theme package sold through one of your affiliate links you get <strong>30% "
-"commision</strong>. Place a banner on your website and start making serious "
+"commission</strong>. Place a banner on your website and start making serious "
 "cash."
 
 # @ decorum
@@ -1576,7 +1576,7 @@ msgstr "Header Top"
 # @ decorum
 #: admin/ts-functions.php:289
 msgid "Need expert advice? <strong>Call us now - 555 555 555</strong>"
-msgstr "Besoin d'un expert? <strong>Appelez-nous au 555 555 555</strong>"
+msgstr "Besoin d'un conseil? <strong>Appelez-nous au 03 87 17 45 17</strong>"
 
 # @ decorum
 #: admin/ts-functions.php:290
@@ -2711,8 +2711,8 @@ msgid ""
 "Do not put currency symbols and thousands separators to make sure the "
 "advanced search for price works correctly."
 msgstr ""
-"Do not put currency symbols and thousands separators to make sure the "
-"advanced search for price works correctly."
+"Ne placer ni symbole de devise, ni séparateur de milliers afin d'être sûr "
+"que la recherche par prix fonctionne correctement."
 
 # @ decorum
 #: inc/property-search.php:98
@@ -2762,7 +2762,7 @@ msgstr "Prix"
 # @ decorum
 #: inc/functions.meta-box.php:83
 msgid "Period"
-msgstr "Período"
+msgstr "Période"
 
 # @ decorum
 #: inc/functions.meta-box.php:285

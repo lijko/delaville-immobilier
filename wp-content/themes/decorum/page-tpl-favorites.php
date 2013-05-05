@@ -78,7 +78,7 @@ Template Name: Favorites
     				    <span class="details-beds"><?php echo get_post_meta($post->ID, '_beds', true); ?> <?php _e('Beds', TS_DOMAIN); ?></span>
     				    <?php endif; ?>
     				    <?php if(get_post_meta($post->ID, '_rooms', true)) : ?>
-    				    <span class="details-rooms"><?php echo get_post_meta($post->ID, '_rooms', true); ?> <?php _e('rooms', TS_DOMAIN); ?></span>
+    				    <span class="details-rooms"><?php echo get_post_meta($post->ID, '_rooms', true); ?> <?php _e('Rooms', TS_DOMAIN); ?></span>
     				    <?php endif; ?>
     				    
     				    <span class="details-price"><?php ts_currency_price(); ?></span>
