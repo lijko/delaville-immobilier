@@ -45,11 +45,11 @@ if(isset($_POST['submitted-friend'])) {
     } else {
     
     	//Check to make sure that the name field is not empty
-    	if(trim($_POST['contact-name']) === '') {
-    		$nameError = '<div class="ts-info info-icon" style="margin-top:-11px"><span class="icon-error"></span>'.__('This field is required!', TS_DOMAIN).'</div>';
+    	if(trim($_POST['name-from']) === '') {
+    		$nameFromError = '<div class="ts-info info-icon" style="margin-top:-11px"><span class="icon-error"></span>'.__('This field is required!', TS_DOMAIN).'</div>';
     		$hasError = true;
     	} else {
-    		$name_friend = trim($_POST['contact-name']);
+    		$name_from = trim($_POST['name-from']);
     	}
     	
     	//Check to make sure sure that a valid email address is submitted
@@ -89,10 +89,10 @@ if(isset($_POST['submitted-friend'])) {
     	//If there is no error, send the email
     	if(!isset($hasError)) {
 
-    		$subject = $name_friend.' '.__('recommends you', TS_DOMAIN).' ['.get_the_title(get_the_ID()).']';
-    		$body = __('Name',TS_DOMAIN).": $name_friend \n\n".__('Message',TS_DOMAIN).":\n\n$comments_friend";
+    		$subject = $name_from.' '.__('recommends you', TS_DOMAIN).' ['.get_the_title(get_the_ID()).']';
+    		$body = __('Name',TS_DOMAIN).": $name_from \n\n".__('Message',TS_DOMAIN).":\n\n$comments_friend";
    		$body .= "\n\n".__('Property',TS_DOMAIN).": ".get_the_title($post->ID)." (".get_permalink(get_the_ID()).")";
-    		$headers = 'From: '.get_bloginfo('name').' <'.$email_from.'>' . "\r\n" . 'Reply-To: ' . $email_from;
+    		$headers = 'From: '.$name_from.' <'.$email_from.'>' . "\r\n" . 'Reply-To: ' . $email_from;
     		
     		wp_mail($email_friend, $subject, $body, $headers);
 
@@ -165,9 +165,9 @@ jQuery(document).ready(function($){
     <form action="<?php the_permalink(); ?>" id="ts-tellafriend-form" method="post">
         	
     <p>
-    	<label for="name-friend"><?php _e('Your name',TS_DOMAIN); ?></label>:<br />
-    	<input type="text" name="contact-name" id="name-friend" value="<?php if(isset($_POST['contact-name'])) echo $_POST['contact-name'];?>" class="text required" />
-        <?php if($nameError != '') echo $nameError; ?>
+    	<label for="name-from"><?php _e('Your name',TS_DOMAIN); ?></label>:<br />
+    	<input type="text" name="name-from" id="name-from" value="<?php if(isset($_POST['name-from'])) echo $_POST['name-from'];?>" class="text required" />
+        <?php if($nameFromError != '') echo $nameFromError; ?>
     </p>
     
     <p>
