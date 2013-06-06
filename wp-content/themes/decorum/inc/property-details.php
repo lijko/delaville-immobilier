@@ -96,10 +96,10 @@ if(
     
     	<dl class="clearfix">
     	
-    		<?php if($ts_property_elements_single[6]) : ?>
+    		<!--<?php if($ts_property_elements_single[6]) : ?>
     		<dt><?php _e('Published', TS_DOMAIN); ?>:</dt>
     		<dd><?php the_time(get_option('date_format')); ?></dd>
-    		<?php endif; ?>
+    		<?php endif; ?>-->
     		<?php if(get_post_meta($post->ID, '_size', true)) : ?>
     		<dt><?php $ts_details_1_option_0 = $ts_details[1]['option'][0]; _e($ts_details_1_option_0, TS_DOMAIN); ?>:</dt>
     		<dd><?php echo get_post_meta($post->ID, '_size', true).' '.$ts_details[1]['option'][1]; ?></dd>
