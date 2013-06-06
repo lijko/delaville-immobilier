@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: maMaison v0.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-05-05 15:44+0100\n"
+"PO-Revision-Date: 2013-06-06 13:46+0100\n"
 "Last-Translator: bertrandkempf@gmail.com <bertrandkempf@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1782,7 +1782,7 @@ msgstr "Vous envoyez une copie par email"
 # @ decorum
 #: inc/contact-tellafriend.php:31
 msgid "Tell a friend"
-msgstr "Contacter un ami"
+msgstr "Envoyer à un ami"
 
 # @ decorum
 #: inc/contact-tellafriend.php:32
@@ -2596,7 +2596,7 @@ msgstr "Bien suivant"
 # @ decorum
 #: inc/contact-tellafriend.php:81
 msgid "recommends you"
-msgstr "vous recommandons"
+msgstr "vous recommande"
 
 # @ decorum
 #: index.php:24
