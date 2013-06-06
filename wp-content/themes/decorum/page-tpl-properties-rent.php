@@ -98,7 +98,7 @@ Template Name: Properties (for rent)
     				
     				</div>
 					
-					<?php ts_the_excerpt(25, get_the_ID()); ?>
+					<?php ts_the_excerpt(10, get_the_ID()); ?>
 				
 				</div><!-- end post -->
 				

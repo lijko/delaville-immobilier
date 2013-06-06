@@ -128,7 +128,7 @@ jQuery(document).ready(function($){
 				    <?php
 				    	endif;
 				    	
-				    	ts_the_excerpt(20, get_the_ID());
+				    	ts_the_excerpt(10, get_the_ID());
 				    	
 				    	if($slider_content != 'Show latest posts' && $slider_content != 'Show post category (select below)') :
 				    ?>

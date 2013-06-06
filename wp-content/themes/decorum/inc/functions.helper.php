@@ -118,7 +118,7 @@ function ts_the_excerpt($length = 55, $post_id = '', $more = ''){
 		
 	}
 	
-	$output = strip_shortcodes($output);
+	$output = strip_shortcodes($output).'...';
 	$output = wpautop($output).wpautop($excerpt_more);
 	
 	echo $output;

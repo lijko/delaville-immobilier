@@ -349,7 +349,7 @@ class TS_Property_Category extends WP_Widget {
 					endif;
 					
 					// get teaser text
-					ts_the_excerpt(25, get_the_ID());					
+					ts_the_excerpt(10, get_the_ID());					
 				?>
     		
     		</div><!-- end post -->
@@ -551,7 +551,7 @@ class TS_Posts extends WP_Widget {
     			<?php
     				endif;
     				// get teaser text
-					ts_the_excerpt(25, get_the_ID());
+					ts_the_excerpt(10, get_the_ID());
     			?>
     		
     		</div><!-- end post -->

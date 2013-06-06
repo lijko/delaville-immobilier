@@ -296,7 +296,7 @@ function cimy_registration_check_mu_wrapper($data) {
 	$errors = $data['errors'];
 
 	// no we don't want to check again at this stage
-	if (($_REQUEST['stage'] == "validate-blog-signup") && !empty($_REQUEST['confirm_form_nonce']) && ($_REQUEST['confirm_form_nonce'] == wp_create_nonce('confirm_form', 'confirm_form_nonce')))
+	if ((!empty($_REQUEST['stage']) && $_REQUEST['stage'] == "validate-blog-signup") && !empty($_REQUEST['confirm_form_nonce']) && ($_REQUEST['confirm_form_nonce'] == wp_create_nonce('confirm_form', 'confirm_form_nonce')))
 		return $data;
 
 	$errors = cimy_registration_check($user_login, $user_email, $errors);
@@ -564,7 +564,7 @@ function cimy_registration_check($user_login, $user_email, $errors) {
 						}
 					}
 					else {
-						if (strlen($value) < $minlen) {
+						if (mb_strlen($value) < $minlen) {
 
 							$errors->add($unique_id, '<strong>'.__("ERROR", $cimy_uef_domain).'</strong>: '.$label.' '.__('couldn&#8217;t have length less than', $cimy_uef_domain).' '.$minlen.'.');
 						}
@@ -582,7 +582,7 @@ function cimy_registration_check($user_login, $user_email, $errors) {
 						}
 					}
 					else {
-						if (strlen($value) != $exactlen) {
+						if (mb_strlen($value) != $exactlen) {
 
 							$errors->add($unique_id, '<strong>'.__("ERROR", $cimy_uef_domain).'</strong>: '.$label.' '.__('couldn&#8217;t have length different than', $cimy_uef_domain).' '.$exactlen.'.');
 						}
@@ -599,7 +599,7 @@ function cimy_registration_check($user_login, $user_email, $errors) {
 						}
 					}
 					else {
-						if (strlen($value) > $maxlen) {
+						if (mb_strlen($value) > $maxlen) {
 							$errors->add($unique_id, '<strong>'.__("ERROR", $cimy_uef_domain).'</strong>: '.$label.' '.__('couldn&#8217;t have length more than', $cimy_uef_domain).' '.$maxlen.'.');
 						}
 					}
@@ -657,7 +657,7 @@ function cimy_registration_captcha_check($user_login, $user_email, $errors) {
 
 function cimy_uef_sanitize_username($username, $raw_username, $strict) {
 	$options = cimy_get_options();
-	if (!in_array("username", $options["wp_hidden_fields"]) && !empty($_POST['user_email']) && is_email($_POST['user_email']) && !empty($_GET['action']) && $_GET['action'] == 'register') {
+	if (!in_array("username", $options["wp_hidden_fields"]) && !empty($_POST['user_email']) && is_email($_POST['user_email']) && cimy_uef_is_register_page()) {
 		$username = $_POST['user_email'];
 	}
 	return $username;
@@ -665,7 +665,7 @@ function cimy_uef_sanitize_username($username, $raw_username, $strict) {
 
 function cimy_uef_validate_username($valid, $username) {
 	$options = cimy_get_options();
-	if (!in_array("username", $options["wp_hidden_fields"]) && empty($username) && !empty($_GET['action']) && $_GET['action'] == 'register') {
+	if (!in_array("username", $options["wp_hidden_fields"]) && empty($username) && cimy_uef_is_register_page()) {
 		return true;
 	}
 	return $valid;
@@ -1076,7 +1076,7 @@ function cimy_registration_form($errors=null, $show_type=0) {
 			$obj_id = ' id="'.$unique_id.'"';
 
 			// tabindex not used in MU, WordPress 3.5+ and Theme My Login  dropping...
-			if (is_multisite() || cimy_is_at_least_wordpress35() || (!empty($GLOBALS['theme_my_login']) && $GLOBALS['theme_my_login']->is_login_page()))
+			if (is_multisite() || cimy_is_at_least_wordpress35() || cimy_uef_is_theme_my_login_register_page())
 				$obj_tabindex = "";
 			else {
 				$obj_tabindex = ' tabindex="'.strval($tabindex).'"';
@@ -1218,10 +1218,10 @@ function cimy_registration_form($errors=null, $show_type=0) {
 			<img id="captcha" align="left" style="padding-right: 5px; border: 0" src="<?php echo $cuef_securimage_webpath; ?>/securimage_show_captcha.php" alt="CAPTCHA Image" />
 			<object type="application/x-shockwave-flash" data="<?php echo $cuef_securimage_webpath; ?>/securimage_play.swf?audio_file=<?php echo $cuef_securimage_webpath; ?>/securimage_play.php&#038;bgColor1=#fff&#038;bgColor2=#fff&#038;iconColor=#777&#038;borderWidth=1&#038;borderColor=#000" height="19" width="19"><param name="movie" value="<?php echo $cuef_securimage_webpath; ?>/securimage_play.swf?audio_file=<?php echo $cuef_securimage_webpath; ?>/securimage_play.php&#038;bgColor1=#fff&#038;bgColor2=#fff&#038;iconColor=#777&#038;borderWidth=1&#038;borderColor=#000" /></object>
 			<br /><br /><br />
-			<a align="right" <?php if (!empty($obj_tabindex)) echo "tabindex=\"".$tabindex."\""; $tabindex++; ?> style="border-style: none" href="#" onclick="document.getElementById('captcha').src = '<?php echo $cuef_securimage_webpath; ?>/securimage_show_captcha.php?' + Math.random(); return false"><img src="<?php echo $cuef_securimage_webpath; ?>/images/refresh.gif" alt="<?php _e("Change image", $cimy_uef_domain); ?>" border="0" onclick="this.blur()" align="bottom" /></a>
+			<a align="right" <?php if (!empty($obj_tabindex)) echo "tabindex=\"".$tabindex."\""; $tabindex++; ?> style="border-style: none" href="#" onclick="document.getElementById('captcha').src = '<?php echo $cuef_securimage_webpath; ?>/securimage_show_captcha.php?' + Math.random(); return false"><img src="<?php echo $cuef_securimage_webpath; ?>/images/refresh.png" alt="<?php _e("Change image", $cimy_uef_domain); ?>" border="0" onclick="this.blur()" align="bottom" height="19" width="19" /></a>
 		</div>
 		<div style="width: <?php echo $width; ?>px; float: left; height: 50px; vertical-align: bottom; padding: 5px;">
-			<?php _e("Insert the code:", $cimy_uef_domain); ?>&nbsp;<input type="text" name="securimage_response_field" size="10" maxlength="6" tabindex="<?php echo $tabindex; $tabindex++; ?>" />
+			<?php _e("Insert the code:", $cimy_uef_domain); ?>&nbsp;<input type="text" name="securimage_response_field" size="12" maxlength="16" tabindex="<?php echo $tabindex; $tabindex++; ?>" />
 		</div>
 <?php
 	}

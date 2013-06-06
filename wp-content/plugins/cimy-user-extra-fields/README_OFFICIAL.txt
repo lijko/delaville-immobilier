@@ -627,6 +627,19 @@ A lot of times I cannot reproduce the problem and I need more details, so if you
 
 
 CHANGELOG:
+v2.5.2 - 03/06/2013
+- Added support for Theme My Login v6.3.x
+- Fixed Users Extended page is blank when the WordPress installation hosts a lot (10.000+) of users (thanks to mightypixel, eArtboard and more)
+- Fixed cimy_uef_register.css file inclusion does not happen (MS only) (introduced in v2.5.0)
+- Fixed strlen doesn't count correctly special accented characters, changed to mb_strlen (thanks to Batischev Oleg for the patch)
+- Fixed user activation email's subject doesn't get translated (non-MS only) (thanks to Torstein Knutsen for the patch)
+- Updated Italian translation
+
+v2.5.1 - 06/05/2013
+- Updated Securimage Captcha to v3.5.0
+- Fixed captcha check was performed on /wp-admin/user-new.php page even without a captcha showed (MS only) (thanks to KZeni)
+- Fixed strength password hint description is showed inline with the password strength when reCAPTCHA is also showed (thanks to coopersita)
+
 v2.5.0 - 18/03/2013
 - Added support for hiding the username under standard WP registration, email will substitute it (non-MS only) (thanks to Matt Hoffman)
 - Added support for WordPress hidden fields rules under profile update
