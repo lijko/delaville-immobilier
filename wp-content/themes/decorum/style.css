@@ -801,11 +801,13 @@ a#totop:active {
 }
 
 .slider-details .details-size {
+	margin: 0px;
 	background: url(img/bg-slider-details-size.png) no-repeat center top;
 }
 
 .slider-details .details-beds {
-	background: url(img/bg-slider-details-beds.png) no-repeat center top;
+	margin: 0px;
+	background: url(img/bg-slider-details-beds.png) no-repeat center 3px;
 }
 
 .slider-details .details-rooms {
